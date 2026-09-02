@@ -1,0 +1,9 @@
+{
+  "name": "DeltaCare Campus Care",
+  "short_name": "DeltaCare",
+  "description": "Campus issue and lost-and-found management",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f5",
+  "theme_color": "#173f35"
+}
