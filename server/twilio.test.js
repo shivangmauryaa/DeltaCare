@@ -73,41 +73,22 @@ test('SMS: invalid recipient format is rejected', async () => {
   assert.match((await res.json()).message, /E\.164/);
 });
 
-test('WhatsApp: blocked when the 24-hour window is closed (no inbound yet)', async () => {
-  const cookie = await login();
-  const res = await fetch(`${baseUrl}/api/send/whatsapp`, { method: 'POST', headers: authed(cookie), body: JSON.stringify({ to: '+918788083267', message: 'Hello from DeltaCare' }) });
-  assert.equal(res.status, 403);
-  const data = await res.json();
-  assert.match(data.message, /Sandbox|window/);
-});
-
-test('WhatsApp: inbound message opens the window, then a custom message sends (mock)', async () => {
-  const params = { MessageSid: 'SM-inbound-wa-001', From: 'whatsapp:+918788083267', To: 'whatsapp:+17372212163', Body: 'join twilio-trial', MessageStatus: 'received' };
-  const signature = twilioSignature('/api/twilio/incoming', params);
-  const incoming = await fetch(`${baseUrl}/api/twilio/incoming`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': signature }, body: new URLSearchParams(params).toString() });
-  assert.equal(incoming.status, 200);
-  assert.match(await incoming.text(), /<Response><\/Response>/);
-  const cookie = await login();
-  const res = await fetch(`${baseUrl}/api/send/whatsapp`, { method: 'POST', headers: authed(cookie), body: JSON.stringify({ to: '+918788083267', message: 'Custom free-form message inside the window' }) });
-  assert.equal(res.status, 201);
-  const data = await res.json();
-  assert.match(data.sid, /^SM-mock-/);
-  assert.equal(data.template, null);
-});
-
-test('Incoming webhook: invalid signature is rejected (403)', async () => {
+test('Twilio incoming webhook: invalid signature is rejected (403)', async () => {
   const res = await fetch(`${baseUrl}/api/twilio/incoming`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': 'wrong-signature' }, body: 'MessageSid=SM-bad&Body=hello' });
   assert.equal(res.status, 403);
 });
 
-test('Incoming webhook: duplicate MessageSid is idempotent', async () => {
-  const params = { MessageSid: 'SM-inbound-wa-001', From: 'whatsapp:+918788083267', To: 'whatsapp:+17372212163', Body: 'duplicate check' };
+test('Twilio incoming webhook: valid signature stores the message, duplicate is idempotent', async () => {
+  const params = { MessageSid: 'SM-inbound-wa-001', From: 'whatsapp:+918788083267', To: 'whatsapp:+17372212163', Body: 'join twilio-trial', MessageStatus: 'received' };
   const signature = twilioSignature('/api/twilio/incoming', params);
-  const res = await fetch(`${baseUrl}/api/twilio/incoming`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': signature }, body: new URLSearchParams(params).toString() });
-  assert.equal(res.status, 200);
+  const first = await fetch(`${baseUrl}/api/twilio/incoming`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': signature }, body: new URLSearchParams(params).toString() });
+  assert.equal(first.status, 200);
+  assert.match(await first.text(), /<Response><\/Response>/);
+  const second = await fetch(`${baseUrl}/api/twilio/incoming`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': signature }, body: new URLSearchParams(params).toString() });
+  assert.equal(second.status, 200);
 });
 
-test('Status webhook: updates the stored record (delivered) and is idempotent', async () => {
+test('Twilio status webhook: updates the stored record (delivered) and is idempotent', async () => {
   const params = { MessageSid: 'SM-inbound-wa-001', MessageStatus: 'delivered' };
   const signature = twilioSignature('/api/twilio/status', params);
   const res = await fetch(`${baseUrl}/api/twilio/status`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': signature }, body: new URLSearchParams(params).toString() });
@@ -115,7 +96,7 @@ test('Status webhook: updates the stored record (delivered) and is idempotent', 
   assert.deepEqual(await res.json(), { ok: true });
 });
 
-test('Status webhook: stores failure details (ErrorCode/ErrorMessage)', async () => {
+test('Twilio status webhook: stores failure details (ErrorCode/ErrorMessage)', async () => {
   const params = { MessageSid: 'SM-inbound-wa-001', MessageStatus: 'failed', ErrorCode: '30007', ErrorMessage: 'Carrier lookup failed' };
   const signature = twilioSignature('/api/twilio/status', params);
   const res = await fetch(`${baseUrl}/api/twilio/status`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Twilio-Signature': signature }, body: new URLSearchParams(params).toString() });
@@ -130,7 +111,7 @@ test('Status webhook: stores failure details (ErrorCode/ErrorMessage)', async ()
 });
 
 test('Sending endpoints are auth-protected', async () => {
-  const res = await fetch(`${baseUrl}/api/send/sms`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ to: '+918788083267', template: 'random' }) });
+  const res = await fetch(`${baseUrl}/api/send/sms`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ to: '+918788083267', message: 'hi' }) });
   assert.equal(res.status, 401);
 });
 

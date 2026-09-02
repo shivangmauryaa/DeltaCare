@@ -685,6 +685,132 @@
       "userId": "ADM-MTITFXQL-1AFD",
       "createdAt": "2026-09-02T10:32:50.633Z",
       "expiresAt": "2026-09-09T10:32:50.633Z"
+    },
+    {
+      "id": "SES-MTJYRCGR-3296",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:38:58.011Z",
+      "expiresAt": "2026-09-09T10:38:58.011Z"
+    },
+    {
+      "id": "SES-MTJYSSY2-A86B",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:40:06.026Z",
+      "expiresAt": "2026-09-09T10:40:06.027Z"
+    },
+    {
+      "id": "SES-MTJZFEX6-8CEA",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:57:40.938Z",
+      "expiresAt": "2026-09-09T10:57:40.939Z"
+    },
+    {
+      "id": "SES-MTK05H6B-94E7",
+      "userId": "USR-MTJUAWLJ-F139",
+      "createdAt": "2026-09-02T11:17:56.915Z",
+      "expiresAt": "2026-09-09T11:17:56.915Z"
+    },
+    {
+      "id": "SES-MTK0SA3X-36D2",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T11:35:40.845Z",
+      "expiresAt": "2026-09-09T11:35:40.846Z"
+    },
+    {
+      "id": "SES-MTK1JLBY-EBA9",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T11:56:55.102Z",
+      "expiresAt": "2026-09-09T11:56:55.102Z"
+    },
+    {
+      "id": "SES-MTK1K8HN-5C95",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T11:57:25.115Z",
+      "expiresAt": "2026-09-09T11:57:25.116Z"
+    },
+    {
+      "id": "SES-MTK21JSU-6A1C",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:10:52.926Z",
+      "expiresAt": "2026-09-09T12:10:52.927Z"
+    },
+    {
+      "id": "SES-MTK21NCB-A3F5",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:10:57.515Z",
+      "expiresAt": "2026-09-09T12:10:57.515Z"
+    },
+    {
+      "id": "SES-MTK21QSI-8FF3",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:11:01.986Z",
+      "expiresAt": "2026-09-09T12:11:01.986Z"
+    },
+    {
+      "id": "SES-MTK26H95-56F6",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:14:42.905Z",
+      "expiresAt": "2026-09-09T12:14:42.906Z"
+    },
+    {
+      "id": "SES-MTK2DQMS-F0EA",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:20:21.652Z",
+      "expiresAt": "2026-09-09T12:20:21.653Z"
+    },
+    {
+      "id": "SES-MTK2RUIR-5957",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:31:19.875Z",
+      "expiresAt": "2026-09-09T12:31:19.875Z"
+    },
+    {
+      "id": "SES-MTK2X9WF-8C54",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:35:33.087Z",
+      "expiresAt": "2026-09-09T12:35:33.088Z"
+    },
+    {
+      "id": "SES-MTK2XD7K-7BD3",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:35:37.376Z",
+      "expiresAt": "2026-09-09T12:35:37.376Z"
+    },
+    {
+      "id": "SES-MTK2XGH0-52E4",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:35:41.604Z",
+      "expiresAt": "2026-09-09T12:35:41.604Z"
+    },
+    {
+      "id": "SES-MTK2ZEQW-7148",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T12:37:12.680Z",
+      "expiresAt": "2026-09-09T12:37:12.682Z"
+    },
+    {
+      "id": "SES-MTK33ZHO-A992",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:40:46.188Z",
+      "expiresAt": "2026-09-09T12:40:46.189Z"
+    },
+    {
+      "id": "SES-MTK3435G-3D43",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:40:50.932Z",
+      "expiresAt": "2026-09-09T12:40:50.932Z"
+    },
+    {
+      "id": "SES-MTK346QH-01A4",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:40:55.577Z",
+      "expiresAt": "2026-09-09T12:40:55.577Z"
+    },
+    {
+      "id": "SES-MTK3GFUB-BBE9",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T12:50:27.252Z",
+      "expiresAt": "2026-09-09T12:50:27.252Z"
     }
   ],
   "passwordResets": [
@@ -711,7 +837,7 @@
       "priority": "medium",
       "impact": "medium",
       "urgency": "medium",
-      "status": "resolved",
+      "status": "closed",
       "departmentId": "DEPT-GEN",
       "assigneeId": null,
       "ai": {
@@ -772,6 +898,12 @@
           "actorId": "ADM-MTITFXQL-1AFD",
           "at": "2026-09-02T10:06:48.843Z",
           "reason": "Notification sent using issue_fixed"
+        },
+        {
+          "status": "closed",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T10:44:01.263Z",
+          "reason": "Notification sent using issue_closed"
         }
       ],
       "feedback": {
@@ -780,7 +912,7 @@
         "createdAt": "2026-09-02T10:07:29.339Z"
       },
       "createdAt": "2026-09-02T09:49:13.196Z",
-      "updatedAt": "2026-09-02T10:07:29.339Z"
+      "updatedAt": "2026-09-02T10:44:01.263Z"
     },
     {
       "id": "ISS-MTJSBKSM-5853",
@@ -1463,6 +1595,31 @@
   ],
   "lostFound": [
     {
+      "id": "LST-MTK06J8L-57FB",
+      "version": 1,
+      "reporterId": "USR-MTJUAWLJ-F139",
+      "kind": "lost",
+      "itemName": "Earbuds",
+      "description": "esxs",
+      "category": "Personal item",
+      "color": "Pink",
+      "brand": "Oppo",
+      "privateAttributes": "xs",
+      "publicAttributes": {
+        "color": "Pink",
+        "brand": "Oppo"
+      },
+      "attachments": [],
+      "coordinates": null,
+      "location": "Foyer",
+      "eventDate": "2026-09-02",
+      "status": "possible_match",
+      "sensitive": true,
+      "inventory": null,
+      "createdAt": "2026-09-02T11:18:46.245Z",
+      "updatedAt": "2026-09-02T11:20:01.656Z"
+    },
+    {
       "id": "LST-MTJWJRJW-4F6E",
       "version": 1,
       "reporterId": "USR-MTJVZFO3-F516",
@@ -1481,11 +1638,11 @@
       "coordinates": null,
       "location": "Washroom",
       "eventDate": "2026-09-02",
-      "status": "matching",
+      "status": "returned",
       "sensitive": true,
       "inventory": null,
       "createdAt": "2026-09-02T09:37:05.084Z",
-      "updatedAt": "2026-09-02T09:37:05.084Z"
+      "updatedAt": "2026-09-02T11:38:46.590Z"
     },
     {
       "id": "LST-MTJWAC5O-3095",
@@ -1531,7 +1688,7 @@
       "coordinates": null,
       "location": "Cafeteria",
       "eventDate": "2026-09-01",
-      "status": "matching",
+      "status": "possible_match",
       "sensitive": false,
       "inventory": {
         "tag": "TAG-MTIW0YSJ-2416",
@@ -1540,7 +1697,7 @@
         "checkedInAt": "2026-09-01T16:34:41.827Z"
       },
       "createdAt": "2026-09-01T16:34:41.827Z",
-      "updatedAt": "2026-09-02T06:48:38.792Z"
+      "updatedAt": "2026-09-02T11:17:10.252Z"
     },
     {
       "id": "DEMO-LST-001",
@@ -1587,12 +1744,12 @@
       "coordinates": null,
       "location": "Student Centre",
       "eventDate": "2026-08-31",
-      "status": "possible_match",
+      "status": "new",
       "sensitive": false,
       "inventory": null,
       "demoBatch": "DELTACARE-DEMO-1",
       "createdAt": "2026-08-31T10:31:37.229Z",
-      "updatedAt": "2026-09-02T08:11:54.679Z"
+      "updatedAt": "2026-09-02T11:17:00.071Z"
     },
     {
       "id": "DEMO-FND-003",
@@ -1623,7 +1780,7 @@
       },
       "demoBatch": "DELTACARE-DEMO-1",
       "createdAt": "2026-09-01T12:31:37.229Z",
-      "updatedAt": "2026-09-02T08:11:54.679Z"
+      "updatedAt": "2026-09-02T11:19:22.316Z"
     }
   ],
   "auditLogs": [
@@ -3497,9 +3654,491 @@
       "userId": "ADM-MTITFXQL-1AFD",
       "metadata": {},
       "createdAt": "2026-09-02T10:32:50.634Z"
+    },
+    {
+      "id": "AUD-MTJYRCGS-BFDF",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:38:58.012Z"
+    },
+    {
+      "id": "AUD-MTJYRFUY-C1E5",
+      "action": "twilio.sms_sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "messageSid": "SMd3a8379e64a305a704c18eb73fda540b",
+        "to": "+918788083267",
+        "template": "sms_2fa"
+      },
+      "createdAt": "2026-09-02T10:39:02.410Z"
+    },
+    {
+      "id": "AUD-MTJYSSY6-2180",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:40:06.030Z"
+    },
+    {
+      "id": "AUD-MTJYXUGG-E9CB",
+      "action": "communication.sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "communicationId": "MSG-MTJYXUGG-68F1",
+        "entityType": "issue",
+        "entityId": "ISS-MTJWZDD9-411D",
+        "channels": [
+          "in_app",
+          "email",
+          "sms",
+          "whatsapp"
+        ],
+        "deliveries": [
+          {
+            "channel": "in_app",
+            "status": "sent"
+          },
+          {
+            "channel": "email",
+            "status": "sent"
+          },
+          {
+            "channel": "sms",
+            "status": "failed"
+          },
+          {
+            "channel": "whatsapp",
+            "status": "failed"
+          }
+        ]
+      },
+      "createdAt": "2026-09-02T10:44:01.264Z"
+    },
+    {
+      "id": "AUD-MTJZFEX8-7FB8",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:57:40.940Z"
+    },
+    {
+      "id": "AUD-MTK049BB-E462",
+      "action": "lost_found.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "recordId": "DEMO-LST-002",
+        "status": "new"
+      },
+      "createdAt": "2026-09-02T11:17:00.071Z"
+    },
+    {
+      "id": "AUD-MTK04A4K-ECDE",
+      "action": "lost_found.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "recordId": "DEMO-FND-003",
+        "status": "new"
+      },
+      "createdAt": "2026-09-02T11:17:01.125Z"
+    },
+    {
+      "id": "AUD-MTK04H64-39A4",
+      "action": "lost_found.match_sent_to_victim",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "lostItemId": "LST-MTJWJRJW-4F6E",
+        "foundItemIds": [
+          "FND-MTIW0YSJ-C6AB"
+        ]
+      },
+      "createdAt": "2026-09-02T11:17:10.252Z"
+    },
+    {
+      "id": "AUD-MTK05H6C-97E8",
+      "action": "session.created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {},
+      "createdAt": "2026-09-02T11:17:56.916Z"
+    },
+    {
+      "id": "AUD-MTK06J8M-1AEC",
+      "action": "lost_found.lost_created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {
+        "recordId": "LST-MTK06J8L-57FB",
+        "matches": 0
+      },
+      "createdAt": "2026-09-02T11:18:46.246Z"
+    },
+    {
+      "id": "AUD-MTK0749T-5FB7",
+      "action": "lost_found.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "recordId": "LST-MTK06J8L-57FB",
+        "status": "new"
+      },
+      "createdAt": "2026-09-02T11:19:13.505Z"
+    },
+    {
+      "id": "AUD-MTK075H4-2A5A",
+      "action": "lost_found.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "recordId": "LST-MTK06J8L-57FB",
+        "status": "matching"
+      },
+      "createdAt": "2026-09-02T11:19:15.064Z"
+    },
+    {
+      "id": "AUD-MTK07B2K-C545",
+      "action": "lost_found.match_sent_to_victim",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "lostItemId": "LST-MTK06J8L-57FB",
+        "foundItemIds": [
+          "DEMO-FND-003"
+        ]
+      },
+      "createdAt": "2026-09-02T11:19:22.316Z"
+    },
+    {
+      "id": "AUD-MTK085FD-23CF",
+      "action": "communication.sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "communicationId": "MSG-MTK085FD-52E2",
+        "entityType": "lostFound",
+        "entityId": "LST-MTK06J8L-57FB",
+        "channels": [
+          "in_app",
+          "email"
+        ],
+        "deliveries": [
+          {
+            "channel": "in_app",
+            "status": "sent"
+          },
+          {
+            "channel": "email",
+            "status": "sent"
+          }
+        ]
+      },
+      "createdAt": "2026-09-02T11:20:01.657Z"
+    },
+    {
+      "id": "AUD-MTK0SA40-64A0",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T11:35:40.848Z"
+    },
+    {
+      "id": "AUD-MTK0W62K-5EBC",
+      "action": "lost_found.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "LST-MTJWJRJW-4F6E",
+        "status": "claim_review"
+      },
+      "createdAt": "2026-09-02T11:38:42.236Z"
+    },
+    {
+      "id": "AUD-MTK0W9FI-414A",
+      "action": "lost_found.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "LST-MTJWJRJW-4F6E",
+        "status": "returned"
+      },
+      "createdAt": "2026-09-02T11:38:46.590Z"
+    },
+    {
+      "id": "AUD-MTK0WCGC-3958",
+      "action": "email.automatic_delivery",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "communicationId": "EML-MTK0W9FQ-E2B7",
+        "event": "item_returned",
+        "entityType": "lostFound",
+        "entityId": "LST-MTJWJRJW-4F6E",
+        "status": "sent",
+        "attempts": 1
+      },
+      "createdAt": "2026-09-02T11:38:50.508Z"
+    },
+    {
+      "id": "AUD-MTK1JLC0-79A7",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T11:56:55.104Z"
+    },
+    {
+      "id": "AUD-MTK1K8HP-2EC6",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T11:57:25.117Z"
+    },
+    {
+      "id": "AUD-MTK1K94Z-338A",
+      "action": "twilio.sms_sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "messageSid": "SMb7ac3b34056b8d0a6b99430c1e5e5488",
+        "to": "+918788083267",
+        "template": "sms_feedback_surveys"
+      },
+      "createdAt": "2026-09-02T11:57:25.955Z"
+    },
+    {
+      "id": "AUD-MTK21JSX-464E",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:10:52.929Z"
+    },
+    {
+      "id": "AUD-MTK21NCD-97DF",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:10:57.517Z"
+    },
+    {
+      "id": "AUD-MTK21QSJ-88C9",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:11:01.987Z"
+    },
+    {
+      "id": "AUD-MTK26H98-D014",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:14:42.908Z"
+    },
+    {
+      "id": "AUD-MTK26HME-FB06",
+      "action": "vonage.sms_sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "messageUuid": "d623a9d1-4062-435c-92d9-03ced71d893d",
+        "to": "918788083267"
+      },
+      "createdAt": "2026-09-02T12:14:43.382Z"
+    },
+    {
+      "id": "AUD-MTK2DQMU-256B",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:20:21.654Z"
+    },
+    {
+      "id": "AUD-MTK2DRAD-F0A8",
+      "action": "twilio.sms_sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "messageSid": "SM91d2d6f74c2f847d9d1f726fcc6177d1",
+        "to": "+918788083267",
+        "template": "sms_account_alerts"
+      },
+      "createdAt": "2026-09-02T12:20:22.501Z"
+    },
+    {
+      "id": "AUD-MTK2QC4K-ED04",
+      "action": "push.local_keys_generated",
+      "userId": "SYSTEM",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:30:09.380Z"
+    },
+    {
+      "id": "AUD-MTK2RUIT-A29C",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:31:19.877Z"
+    },
+    {
+      "id": "AUD-MTK2TTVP-C66D",
+      "action": "push.local_keys_generated",
+      "userId": "SYSTEM",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:32:52.358Z"
+    },
+    {
+      "id": "AUD-MTK2X9WH-0CB9",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:35:33.089Z"
+    },
+    {
+      "id": "AUD-MTK2XD7L-B696",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:35:37.377Z"
+    },
+    {
+      "id": "AUD-MTK2XGH1-8F7F",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:35:41.605Z"
+    },
+    {
+      "id": "AUD-MTK2ZER0-5C5E",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:37:12.684Z"
+    },
+    {
+      "id": "AUD-MTK33ZHQ-51D3",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:40:46.190Z"
+    },
+    {
+      "id": "AUD-MTK3435H-DFC7",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:40:50.933Z"
+    },
+    {
+      "id": "AUD-MTK346QI-86E5",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:40:55.578Z"
+    },
+    {
+      "id": "AUD-MTK3GFUD-2D51",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T12:50:27.253Z"
+    },
+    {
+      "id": "AUD-MTK3GG9O-DF99",
+      "action": "vonage.whatsapp_sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "messageUuid": "e15aa52c-10f1-4fb8-9fc3-bed66fcaf930",
+        "to": "918788083267"
+      },
+      "createdAt": "2026-09-02T12:50:27.804Z"
     }
   ],
   "notifications": [
+    {
+      "id": "NTF-MTK0W9FI-1654",
+      "userId": "USR-MTJVZFO3-F516",
+      "title": "Item status: returned",
+      "message": "LST-MTJWJRJW-4F6E is now returned.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWJRJW-4F6E",
+      "read": false,
+      "createdAt": "2026-09-02T11:38:46.590Z"
+    },
+    {
+      "id": "NTF-MTK0W62K-EB00",
+      "userId": "USR-MTJVZFO3-F516",
+      "title": "Item status: claim review",
+      "message": "LST-MTJWJRJW-4F6E is now claim review.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWJRJW-4F6E",
+      "read": false,
+      "createdAt": "2026-09-02T11:38:42.236Z"
+    },
+    {
+      "id": "NTF-MTK085FD-DD6C",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "DeltaCare item update: Earbuds",
+      "message": "Hello vidya, we found a possible match for “Earbuds” (LST-MTK06J8L-57FB). Please open DeltaCare to review it.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTK06J8L-57FB",
+      "read": false,
+      "createdAt": "2026-09-02T11:20:01.657Z"
+    },
+    {
+      "id": "NTF-MTK07B2K-DA5A",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "Possible match for your lost item",
+      "message": "We paired your Earbuds with found item(s): Student identity card. Review the chat to arrange return.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTK06J8L-57FB",
+      "read": false,
+      "createdAt": "2026-09-02T11:19:22.316Z"
+    },
+    {
+      "id": "NTF-MTK075H4-0FCF",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "Item status: matching",
+      "message": "LST-MTK06J8L-57FB is now matching.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTK06J8L-57FB",
+      "read": false,
+      "createdAt": "2026-09-02T11:19:15.064Z"
+    },
+    {
+      "id": "NTF-MTK0749T-A80A",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "Item status: new",
+      "message": "LST-MTK06J8L-57FB is now new.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTK06J8L-57FB",
+      "read": false,
+      "createdAt": "2026-09-02T11:19:13.505Z"
+    },
+    {
+      "id": "NTF-MTK04H64-6071",
+      "userId": "USR-MTJVZFO3-F516",
+      "title": "Possible match for your lost item",
+      "message": "We paired your vatsal ki virginity with found item(s): Phone charger. Review the chat to arrange return.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWJRJW-4F6E",
+      "read": false,
+      "createdAt": "2026-09-02T11:17:10.252Z"
+    },
+    {
+      "id": "NTF-MTK04A4K-B686",
+      "userId": "DEMO-USR-AANYA",
+      "title": "Item status: new",
+      "message": "DEMO-FND-003 is now new.",
+      "entityType": "lostFound",
+      "entityId": "DEMO-FND-003",
+      "read": false,
+      "createdAt": "2026-09-02T11:17:01.124Z"
+    },
+    {
+      "id": "NTF-MTK049BB-B835",
+      "userId": "DEMO-USR-AANYA",
+      "title": "Item status: new",
+      "message": "DEMO-LST-002 is now new.",
+      "entityType": "lostFound",
+      "entityId": "DEMO-LST-002",
+      "read": false,
+      "createdAt": "2026-09-02T11:17:00.071Z"
+    },
+    {
+      "id": "NTF-MTJYXUGF-E99E",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "DeltaCare update: test",
+      "message": "Hello vidya, your issue “test” has been closed.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "read": false,
+      "createdAt": "2026-09-02T10:44:01.264Z"
+    },
     {
       "id": "NTF-MTJXLZWR-7271",
       "userId": "USR-MTJUAWLJ-F139",
@@ -3907,6 +4546,54 @@
       "status": "accepted",
       "createdBy": "USR-MTITEZRV-C392",
       "createdAt": "2026-09-02T08:11:54.679Z"
+    },
+    {
+      "id": "MCH-MTK04H64-5C21",
+      "lostItemId": "LST-MTJWJRJW-4F6E",
+      "foundItemId": "FND-MTIW0YSJ-C6AB",
+      "sourceItemId": "FND-MTIW0YSJ-C6AB",
+      "candidateItemId": "LST-MTJWJRJW-4F6E",
+      "score": 100,
+      "overallScore": 100,
+      "components": {
+        "text": 100,
+        "image": 0,
+        "ocr": 0,
+        "attributes": 100,
+        "location": 100,
+        "time": 100
+      },
+      "explanation": [
+        "Manually paired by staff",
+        "Sent to the lost-item reporter for review"
+      ],
+      "status": "accepted",
+      "createdBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T11:17:10.252Z"
+    },
+    {
+      "id": "MCH-MTK07B2K-1B8A",
+      "lostItemId": "LST-MTK06J8L-57FB",
+      "foundItemId": "DEMO-FND-003",
+      "sourceItemId": "DEMO-FND-003",
+      "candidateItemId": "LST-MTK06J8L-57FB",
+      "score": 100,
+      "overallScore": 100,
+      "components": {
+        "text": 100,
+        "image": 0,
+        "ocr": 0,
+        "attributes": 100,
+        "location": 100,
+        "time": 100
+      },
+      "explanation": [
+        "Manually paired by staff",
+        "Sent to the lost-item reporter for review"
+      ],
+      "status": "accepted",
+      "createdBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T11:19:22.316Z"
     }
   ],
   "custodyEvents": [
@@ -4097,7 +4784,20 @@
     },
     "verifiedRecipients": [
       "+918788083267"
-    ]
+    ],
+    "vonageAllowedRecipients": [
+      "918788083267"
+    ],
+    "pickupLocations": [
+      "Student Services desk",
+      "Main library help desk",
+      "Campus security office"
+    ],
+    "reminderRules": {
+      "issueDueSoonHours": 4,
+      "pickupReminderHours": 24,
+      "enabled": true
+    }
   },
   "escalations": [],
   "moderationReports": [
@@ -4305,6 +5005,116 @@
     }
   ],
   "communications": [
+    {
+      "id": "EML-MTK0W9FQ-E2B7",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWJRJW-4F6E",
+      "recipientId": "USR-MTJVZFO3-F516",
+      "templateKeys": [
+        "item_returned"
+      ],
+      "customMessage": "",
+      "channels": [
+        "email"
+      ],
+      "deliveries": [
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<b07249a7-6a25-f5c4-040e-0c7bf7566ae6@gmail.com>",
+          "accepted": [
+            "shree@shree.com"
+          ],
+          "rejected": [],
+          "response": "250 2.0.0 OK  1788349130 5a478bee46e88-32f07beb704sm6496385eec.30 - gsmtp",
+          "attempts": 1
+        }
+      ],
+      "subject": "[DeltaCare] Item returned: vatsal ki virginity",
+      "body": "Hello shree, “vatsal ki virginity” has been returned successfully.",
+      "automatic": true,
+      "event": "item_returned",
+      "sentBy": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T11:38:50.508Z"
+    },
+    {
+      "id": "MSG-MTK085FD-52E2",
+      "entityType": "lostFound",
+      "entityId": "LST-MTK06J8L-57FB",
+      "recipientId": "USR-MTJUAWLJ-F139",
+      "templateKeys": [
+        "lost_match_found"
+      ],
+      "customMessage": "",
+      "channels": [
+        "in_app",
+        "email"
+      ],
+      "deliveries": [
+        {
+          "channel": "in_app",
+          "status": "sent"
+        },
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<f898e4a5-9b17-8d9a-8cbb-35ae2e23f262@gmail.com>",
+          "accepted": [
+            "ahirea699@gmail.com"
+          ],
+          "rejected": [],
+          "response": "250 2.0.0 OK  1788348001 5a478bee46e88-32f07b79898sm7308508eec.15 - gsmtp",
+          "attempts": 1
+        }
+      ],
+      "subject": "DeltaCare item update: Earbuds",
+      "body": "Hello vidya, we found a possible match for “Earbuds” (LST-MTK06J8L-57FB). Please open DeltaCare to review it.",
+      "sentBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T11:20:01.657Z"
+    },
+    {
+      "id": "MSG-MTJYXUGG-68F1",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "recipientId": "USR-MTJUAWLJ-F139",
+      "templateKeys": [
+        "issue_closed"
+      ],
+      "customMessage": "",
+      "channels": [
+        "in_app",
+        "email",
+        "sms",
+        "whatsapp"
+      ],
+      "deliveries": [
+        {
+          "channel": "in_app",
+          "status": "sent"
+        },
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<9de15e95-13b2-5fcc-6b9b-d0a9144c5772@gmail.com>"
+        },
+        {
+          "channel": "sms",
+          "status": "failed",
+          "detail": "Invalid template name. Trial accounts can only use predefined SMS templates.",
+          "providerCode": 572006
+        },
+        {
+          "channel": "whatsapp",
+          "status": "failed",
+          "detail": "ContentSid Required",
+          "providerCode": 21654
+        }
+      ],
+      "subject": "DeltaCare update: test",
+      "body": "Hello vidya, your issue “test” has been closed.",
+      "sentBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:44:01.264Z"
+    },
     {
       "id": "MSG-MTJXLZWS-4953",
       "entityType": "issue",
@@ -4615,7 +5425,181 @@
       "authorName": "shree",
       "message": "hayee ye kya hogaya",
       "createdAt": "2026-09-02T09:37:30.637Z"
+    },
+    {
+      "id": "MSG-MTK04H64-76AD",
+      "threadType": "lostFound",
+      "threadId": "LST-MTJWJRJW-4F6E",
+      "authorId": "SYSTEM",
+      "authorName": "DeltaCare Staff",
+      "message": "We matched your vatsal ki virginity with found item(s): Phone charger. Reply here to arrange return.",
+      "createdAt": "2026-09-02T11:17:10.252Z"
+    },
+    {
+      "id": "MSG-MTK07B2K-638A",
+      "threadType": "lostFound",
+      "threadId": "LST-MTK06J8L-57FB",
+      "authorId": "SYSTEM",
+      "authorName": "DeltaCare Staff",
+      "message": "We matched your Earbuds with found item(s): Student identity card. Reply here to arrange return.",
+      "createdAt": "2026-09-02T11:19:22.316Z"
     }
   ],
-  "twilioMessages": []
+  "twilioMessages": [
+    {
+      "id": "TWMSG-MTJYRFUY-BD21",
+      "messageSid": "SMd3a8379e64a305a704c18eb73fda540b",
+      "channel": "sms",
+      "direction": "outbound-api",
+      "from": "+17372212163",
+      "to": "+918788083267",
+      "body": "sms_2fa",
+      "status": "queued",
+      "createdAt": "2026-09-02T10:39:02.410Z",
+      "sentBy": "ADM-MTITFXQL-1AFD"
+    },
+    {
+      "id": "TWMSG-JOIN-00001",
+      "messageSid": "SM-JOIN-00001",
+      "channel": "whatsapp",
+      "direction": "inbound",
+      "from": "whatsapp:+918788083267",
+      "to": "whatsapp:+17372212163",
+      "body": "join twilio-trial",
+      "status": "received",
+      "createdAt": "2026-09-02T10:39:45.856Z"
+    },
+    {
+      "id": "TWMSG-MTK1K94Z-9E03",
+      "messageSid": "SMb7ac3b34056b8d0a6b99430c1e5e5488",
+      "channel": "sms",
+      "direction": "outbound-api",
+      "from": "+17372212163",
+      "to": "+918788083267",
+      "body": "sms_feedback_surveys",
+      "status": "queued",
+      "createdAt": "2026-09-02T11:57:25.955Z",
+      "sentBy": "ADM-MTITFXQL-1AFD"
+    },
+    {
+      "id": "TWMSG-MTK2DRAD-0CB6",
+      "messageSid": "SM91d2d6f74c2f847d9d1f726fcc6177d1",
+      "channel": "sms",
+      "direction": "outbound-api",
+      "from": "+17372212163",
+      "to": "+918788083267",
+      "body": "sms_account_alerts",
+      "status": "queued",
+      "createdAt": "2026-09-02T12:20:22.501Z",
+      "sentBy": "ADM-MTITFXQL-1AFD"
+    }
+  ],
+  "vonageMessages": [
+    {
+      "id": "VMSG-MTK26HME-97D4",
+      "messageUuid": "d623a9d1-4062-435c-92d9-03ced71d893d",
+      "channel": "sms",
+      "direction": "outbound",
+      "to": "918788083267",
+      "from": "Vonage APIs",
+      "text": "Hello from DeltaCare - SMS via Vonage Messages API",
+      "status": "submitted",
+      "timestamp": "2026-09-02T12:14:43.382Z",
+      "createdAt": "2026-09-02T12:14:43.382Z",
+      "sentBy": "ADM-MTITFXQL-1AFD"
+    },
+    {
+      "id": "VMSG-ALLOW-0001",
+      "messageUuid": "INBOUND-ALLOW-0001",
+      "channel": "whatsapp",
+      "direction": "inbound",
+      "from": "918788083267",
+      "to": "14157386102",
+      "text": "join score oil",
+      "status": "received",
+      "timestamp": "2026-09-02T12:40:25.734Z",
+      "createdAt": "2026-09-02T12:40:25.735Z"
+    },
+    {
+      "id": "VMSG-MTK3GG9O-D919",
+      "messageUuid": "e15aa52c-10f1-4fb8-9fc3-bed66fcaf930",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "to": "918788083267",
+      "from": "14157386102",
+      "text": "Hello from DeltaCare! WhatsApp is now LIVE via the Vonage Sandbox.",
+      "status": "submitted",
+      "timestamp": "2026-09-02T12:50:27.804Z",
+      "createdAt": "2026-09-02T12:50:27.804Z",
+      "sentBy": "ADM-MTITFXQL-1AFD"
+    }
+  ],
+  "authChallenges": [],
+  "pushSubscriptions": [],
+  "pickups": [],
+  "reminders": [],
+  "knowledgeBase": [
+    {
+      "id": "KB-WIFI",
+      "category": "IT & network",
+      "title": "Campus Wi-Fi quick checks",
+      "summary": "Reconnect safely before reporting a network issue.",
+      "body": "Turn Wi-Fi off and on, forget and rejoin the campus network, then confirm whether the problem affects one device or everyone nearby. Never include your password in a report.",
+      "tags": [
+        "wifi",
+        "internet",
+        "network"
+      ],
+      "published": true,
+      "createdBy": "SYSTEM",
+      "createdAt": "2026-09-02T12:06:22.099Z"
+    },
+    {
+      "id": "KB-PROJECTOR",
+      "category": "IT & network",
+      "title": "Projector is not displaying",
+      "summary": "Check input, cable, and room controls.",
+      "body": "Confirm the projector is powered on, select the correct HDMI input, reseat the cable, and try duplicate-display mode. Report the room number and any light or error code you see.",
+      "tags": [
+        "projector",
+        "display",
+        "classroom"
+      ],
+      "published": true,
+      "createdBy": "SYSTEM",
+      "createdAt": "2026-09-02T12:06:22.101Z"
+    },
+    {
+      "id": "KB-LEAK",
+      "category": "Plumbing",
+      "title": "Water leak safety",
+      "summary": "Protect people first and report the exact source.",
+      "body": "Keep people away from wet electrical equipment. If safe, identify the closest room or fixture and add a wide photo. For rapidly flowing water, contact campus security as well as submitting a high-impact report.",
+      "tags": [
+        "water",
+        "leak",
+        "plumbing"
+      ],
+      "published": true,
+      "createdBy": "SYSTEM",
+      "createdAt": "2026-09-02T12:06:22.101Z"
+    },
+    {
+      "id": "KB-ID",
+      "category": "Lost & found",
+      "title": "Lost campus ID or bank card",
+      "summary": "Block access and payments before searching.",
+      "body": "Freeze any bank card immediately. Contact campus services to suspend a lost ID, then create a lost-item report without posting the full card number publicly.",
+      "tags": [
+        "id",
+        "card",
+        "wallet",
+        "lost"
+      ],
+      "published": true,
+      "createdBy": "SYSTEM",
+      "createdAt": "2026-09-02T12:06:22.101Z"
+    }
+  ],
+  "securityEvents": []
 }

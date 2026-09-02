@@ -13,9 +13,12 @@
     "mobile": "vite --config vite.mobile.config.js",
     "mobile:build": "vite build --config vite.mobile.config.js",
     "icons": "node scripts/gen-icons.js",
-    "test": "node --test server/twilio.test.js"
+    "test": "node --test server/*.test.js"
   },
   "dependencies": {
+    "@vonage/jwt": "^1.17.0",
+    "@vonage/messages": "^1.27.0",
+    "@vonage/server-sdk": "^3.30.0",
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.4.2",
@@ -23,10 +26,12 @@
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.468.0",
     "nodemailer": "^9.1.0",
+    "qrcode": "^1.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2",
-    "twilio": "^6.1.0"
+    "twilio": "^6.1.0",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.2",

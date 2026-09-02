@@ -4,6 +4,8 @@ dist-mobile/
 .env
 tmp/
 data/*.tmp
+data/.local-vapid.json
 *.log
 *.err
 backups/
+certs/

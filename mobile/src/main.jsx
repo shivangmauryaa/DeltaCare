@@ -36,7 +36,7 @@ function AuthScreen() {
   const submit = async (event) => {
     event.preventDefault(); setBusy(true); setError('');
     try {
-      if (mode === 'login') { const d = await api('/api/auth/login', { method: 'POST', body: JSON.stringify({ email: form.email, password: form.password }) }); setUser(d.user); }
+      if (mode === 'login') { let d = await api('/api/auth/login', { method: 'POST', body: JSON.stringify({ email: form.email, password: form.password }) }); if (d.mfaRequired) { const code = window.prompt('Enter the six-digit code from your authenticator app:'); if (!code) throw new Error('Authenticator code is required.'); d = await api('/api/auth/mfa/verify', { method: 'POST', body: JSON.stringify({ challengeId: d.challengeId, code }) }); } setUser(d.user); }
       else {
         if (!/^[6-9]\d{9}$/.test(form.phone)) throw new Error('Enter a valid 10-digit Indian mobile number.');
         if (form.password !== form.confirm) throw new Error('Passwords do not match.');
@@ -53,7 +53,16 @@ function App() {
   const { user, setUser } = useAuth();
   const [tab, setTab] = useState('home');
   if (!user) return <AuthScreen />;
-  return <div className="app"><main>{tab === 'home' && <HomeTab go={setTab} />}{tab === 'report' && <ReportTab />}{tab === 'lost' && <LostTab />}{tab === 'notify' && <NotifyTab />}{tab === 'more' && <MoreTab signOut={() => setUser(null)} />}</main><nav className="bottom-nav"><button className={tab === 'home' ? 'active' : ''} onClick={() => setTab('home')}><Home />Home</button><button className={tab === 'report' ? 'active' : ''} onClick={() => setTab('report')}><Wrench />Report</button><button className={tab === 'lost' ? 'active' : ''} onClick={() => setTab('lost')}><PackageCheck />Found</button><button className={tab === 'notify' ? 'active' : ''} onClick={() => setTab('notify')}><Bell />Alerts</button><button className={tab === 'more' ? 'active' : ''} onClick={() => setTab('more')}><Settings />More</button></nav></div>;
+  return <div className="app"><main>{tab === 'home' && <HomeTab go={setTab} />}{tab === 'report' && <ReportTab />}{tab === 'lost' && <LostTab />}{tab === 'notify' && <NotifyTab />}{tab === 'more' && <><MoreTab signOut={() => setUser(null)} /><MobileExtras /></>}</main><nav className="bottom-nav"><button className={tab === 'home' ? 'active' : ''} onClick={() => setTab('home')}><Home />Home</button><button className={tab === 'report' ? 'active' : ''} onClick={() => setTab('report')}><Wrench />Report</button><button className={tab === 'lost' ? 'active' : ''} onClick={() => setTab('lost')}><PackageCheck />Found</button><button className={tab === 'notify' ? 'active' : ''} onClick={() => setTab('notify')}><Bell />Alerts</button><button className={tab === 'more' ? 'active' : ''} onClick={() => setTab('more')}><Settings />More</button></nav></div>;
+}
+
+function MobileExtras() {
+  const [articles, setArticles] = useState([]); const [message, setMessage] = useState(''); const [mfa, setMfa] = useState(null); const [code, setCode] = useState('');
+  useEffect(() => { api('/api/knowledge').then((data) => setArticles(data.articles.slice(0, 4))).catch(() => {}); }, []);
+  const enablePush = async () => { try { const capabilities = await api('/api/capabilities'); if (!capabilities.push.configured) throw new Error('Browser push needs VAPID keys in the server settings.'); const permission = await Notification.requestPermission(); if (permission !== 'granted') throw new Error('Notification permission was not granted.'); const registration = await navigator.serviceWorker.ready; const padding = '='.repeat((4 - capabilities.push.publicKey.length % 4) % 4); const raw = atob((capabilities.push.publicKey + padding).replace(/-/g, '+').replace(/_/g, '/')); const key = Uint8Array.from([...raw].map((char) => char.charCodeAt(0))); const subscription = await registration.pushManager.getSubscription() || await registration.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: key }); await api('/api/push/subscriptions', { method: 'POST', body: JSON.stringify({ subscription }) }); await api('/api/push/test', { method: 'POST' }); setMessage('Device alerts are enabled.'); } catch (error) { setMessage(error.message); } };
+  const startMfa = async () => { try { setMfa(await api('/api/security/mfa/setup', { method: 'POST' })); } catch (error) { setMessage(error.message); } };
+  const enableMfa = async () => { try { const result = await api('/api/security/mfa/enable', { method: 'POST', body: JSON.stringify({ code }) }); setMessage(result.message); setMfa(null); setCode(''); } catch (error) { setMessage(error.message); } };
+  return <div className="mobile-extras content"><section className="panel"><div className="panel-title"><b>Security & device alerts</b></div>{message && <p className="mobile-extra-message" aria-live="polite">{message}</p>}<button className="ghost-btn" onClick={enablePush}><Bell /> Enable push notifications</button><button className="ghost-btn" onClick={startMfa}><ShieldCheck /> Set up authenticator MFA</button>{mfa && <div className="mobile-mfa"><img src={mfa.qr} alt="Authenticator setup QR code" /><input value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, '').slice(0, 6))} inputMode="numeric" placeholder="Six-digit code" /><button className="button" onClick={enableMfa}>Enable MFA</button></div>}</section><section className="panel"><div className="panel-title"><b>Campus help</b><small>Quick self-service guidance</small></div>{articles.map((article) => <details className="mobile-article" key={article.id}><summary>{article.title}</summary><p>{article.body}</p></details>)}</section></div>;
 }
 
 function HomeTab({ go }) {
@@ -107,7 +116,7 @@ function DetailAttachments({ attachments }) { return <DetailSection title="Attac
 
 function NotifyTab() {
   const [items, setItems] = useState([]);
-  const load = () => api('/api/notifications').then((d) => setItems(d.notifications)).catch(() => {});
+  const load = () => api('/api/reminders').catch(() => null).then(() => api('/api/notifications')).then((d) => setItems(d.notifications)).catch(() => {});
   useEffect(() => { load(); }, []);
   const read = async (id) => { await api(`/api/notifications/${id}/read`, { method: 'PATCH' }).catch(() => {}); load(); };
   return <div className="screen"><header className="plain-header"><Brand /><span>Alerts</span></header><div className="content"><PageTitle title="Notifications" sub="Status changes, matches and care-team updates." />{items.length ? items.map((item) => <button className={`alert ${item.read ? 'read' : ''}`} key={item.id} onClick={() => read(item.id)}><span className="ri"><Bell /></span><div><b>{item.title}</b><p>{item.message}</p><small>{new Date(item.createdAt).toLocaleString()}</small></div>{!item.read && <i />}</button>) : <p className="empty-note">You're all caught up.</p>}</div></div>;
