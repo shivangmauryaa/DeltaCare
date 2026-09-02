@@ -5,7 +5,7 @@
       "name": "shivang",
       "email": "shivang@shivang.com",
       "campusId": "8",
-      "role": "student",
+      "role": "admin",
       "passwordHash": "$2b$12$gnQXt5hU3W/u3HpAd/wX.OYZxrbATMlVkzdDViId2FuoptNJAuYpK",
       "verified": true,
       "createdAt": "2026-09-01T15:21:37.662Z",
@@ -17,7 +17,7 @@
         "locationConsent": false
       },
       "roleIds": [
-        "ROLE-USER"
+        "ROLE-ADMIN"
       ],
       "suspended": false
     },
@@ -26,7 +26,7 @@
       "name": "DeltaCare Admin",
       "email": "admin@deltacare.local",
       "campusId": "ADMIN-001",
-      "role": "admin",
+      "role": "super_admin",
       "passwordHash": "$2b$12$225dO0ynWtA52EKhOifgdem60/FGYRxyZrRy2rTQxAJ8mCrtQJ1Ze",
       "verified": true,
       "createdAt": "2026-09-01T15:22:21.707Z",
@@ -38,7 +38,6 @@
         "locationConsent": false
       },
       "roleIds": [
-        "ROLE-ADMIN",
         "ROLE-SUPER"
       ]
     },
@@ -130,6 +129,68 @@
         "locationConsent": false
       },
       "phone": "+911234567890"
+    },
+    {
+      "id": "ADM-MTJSLQE5-D407",
+      "name": "DeltaCare Admin",
+      "email": "admin@deltacare.local",
+      "campusId": "ADMIN-001",
+      "role": "admin",
+      "passwordHash": "$2b$12$0fQuBn6LkLDNRGFPF.Y1qOxwFMNtiSSqguvr.xz5ZA.YsXMHk3A1e",
+      "verified": true,
+      "createdAt": "2026-09-02T07:46:38.784Z",
+      "roleIds": [
+        "ROLE-ADMIN"
+      ],
+      "preferences": {
+        "email": true,
+        "sms": false,
+        "whatsapp": false,
+        "language": "en",
+        "locationConsent": false
+      }
+    },
+    {
+      "id": "USR-MTJUAWLJ-F139",
+      "name": "vidya",
+      "email": "ahirea699@gmail.com",
+      "campusId": "DC-33",
+      "phone": "+918788083267",
+      "role": "student",
+      "passwordHash": "$2b$12$Ugq5CVqfmFfvmkid4YlobuP1vB/pCHEOBxnfSh9lfVoPS/IMYcutK",
+      "verified": true,
+      "preferences": {
+        "email": true,
+        "sms": true,
+        "whatsapp": true,
+        "language": "en",
+        "locationConsent": false
+      },
+      "createdAt": "2026-09-02T08:34:12.781Z",
+      "roleIds": [
+        "ROLE-USER"
+      ]
+    },
+    {
+      "id": "USR-MTJVZFO3-F516",
+      "name": "shree",
+      "email": "shree@shree.com",
+      "campusId": "2026",
+      "phone": "+918530223879",
+      "role": "student",
+      "passwordHash": "$2b$12$Ztut4/7gljPxmxWZcZH7Yep5stZZzQjjmjdBZZ4YINlGSIUFdyfpG",
+      "verified": true,
+      "preferences": {
+        "email": true,
+        "sms": false,
+        "whatsapp": false,
+        "language": "en",
+        "locationConsent": false
+      },
+      "createdAt": "2026-09-02T09:21:16.986Z",
+      "roleIds": [
+        "ROLE-USER"
+      ]
     }
   ],
   "sessions": [
@@ -378,6 +439,252 @@
       "userId": "USR-MTITEZRV-C392",
       "createdAt": "2026-09-02T06:49:56.991Z",
       "expiresAt": "2026-09-09T06:49:56.991Z"
+    },
+    {
+      "id": "SES-MTJS86Q2-FB82",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T07:36:06.410Z",
+      "expiresAt": "2026-09-09T07:36:06.410Z"
+    },
+    {
+      "id": "SES-MTJSATO6-7D2A",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:38:09.462Z",
+      "expiresAt": "2026-09-09T07:38:09.462Z"
+    },
+    {
+      "id": "SES-MTJSB6FC-8FE6",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:38:25.992Z",
+      "expiresAt": "2026-09-09T07:38:25.992Z"
+    },
+    {
+      "id": "SES-MTJSBKS8-75BA",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:38:44.600Z",
+      "expiresAt": "2026-09-09T07:38:44.600Z"
+    },
+    {
+      "id": "SES-MTJSDZ0D-0B4C",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:40:36.350Z",
+      "expiresAt": "2026-09-09T07:40:36.350Z"
+    },
+    {
+      "id": "SES-MTJSE70S-D86F",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:40:46.732Z",
+      "expiresAt": "2026-09-09T07:40:46.732Z"
+    },
+    {
+      "id": "SES-MTJSEAFW-FB85",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:40:51.164Z",
+      "expiresAt": "2026-09-09T07:40:51.164Z"
+    },
+    {
+      "id": "SES-MTJSKKFV-B4C6",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:45:44.059Z",
+      "expiresAt": "2026-09-09T07:45:44.059Z"
+    },
+    {
+      "id": "SES-MTJSKRI3-8269",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:45:53.211Z",
+      "expiresAt": "2026-09-09T07:45:53.211Z"
+    },
+    {
+      "id": "SES-MTJSL863-64F4",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:46:14.811Z",
+      "expiresAt": "2026-09-09T07:46:14.811Z"
+    },
+    {
+      "id": "SES-MTJSLZUF-1866",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:46:50.679Z",
+      "expiresAt": "2026-09-09T07:46:50.680Z"
+    },
+    {
+      "id": "SES-MTJSM63A-87D2",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:46:58.774Z",
+      "expiresAt": "2026-09-09T07:46:58.774Z"
+    },
+    {
+      "id": "SES-MTJSMAO8-6532",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:47:04.712Z",
+      "expiresAt": "2026-09-09T07:47:04.712Z"
+    },
+    {
+      "id": "SES-MTJSVLEA-BDF7",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:54:18.515Z",
+      "expiresAt": "2026-09-09T07:54:18.515Z"
+    },
+    {
+      "id": "SES-MTJSWKNB-F240",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T07:55:04.199Z",
+      "expiresAt": "2026-09-09T07:55:04.199Z"
+    },
+    {
+      "id": "SES-MTJSXLNR-D390",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T07:55:52.167Z",
+      "expiresAt": "2026-09-09T07:55:52.167Z"
+    },
+    {
+      "id": "SES-MTJTDRVW-A05F",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T08:08:26.732Z",
+      "expiresAt": "2026-09-09T08:08:26.732Z"
+    },
+    {
+      "id": "SES-MTJTF1IO-4CDB",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T08:09:25.873Z",
+      "expiresAt": "2026-09-09T08:09:25.873Z"
+    },
+    {
+      "id": "SES-MTJTHRK5-0835",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T08:11:32.933Z",
+      "expiresAt": "2026-09-09T08:11:32.933Z"
+    },
+    {
+      "id": "SES-MTJU9G0W-3261",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T08:33:04.352Z",
+      "expiresAt": "2026-09-09T08:33:04.352Z"
+    },
+    {
+      "id": "SES-MTJUAYFX-BAD3",
+      "userId": "USR-MTJUAWLJ-F139",
+      "createdAt": "2026-09-02T08:34:14.877Z",
+      "expiresAt": "2026-09-09T08:34:14.877Z"
+    },
+    {
+      "id": "SES-MTJUBOEF-50CD",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T08:34:48.520Z",
+      "expiresAt": "2026-09-09T08:34:48.520Z"
+    },
+    {
+      "id": "SES-MTJUGDM5-1099",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T08:38:27.821Z",
+      "expiresAt": "2026-09-09T08:38:27.822Z"
+    },
+    {
+      "id": "SES-MTJVEYFJ-523C",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:05:21.103Z",
+      "expiresAt": "2026-09-09T09:05:21.103Z"
+    },
+    {
+      "id": "SES-MTJVFG2S-D237",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:05:43.972Z",
+      "expiresAt": "2026-09-09T09:05:43.972Z"
+    },
+    {
+      "id": "SES-MTJVM128-365A",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:10:51.104Z",
+      "expiresAt": "2026-09-09T09:10:51.104Z"
+    },
+    {
+      "id": "SES-MTJVZJCI-0D4F",
+      "userId": "USR-MTJVZFO3-F516",
+      "createdAt": "2026-09-02T09:21:21.330Z",
+      "expiresAt": "2026-09-09T09:21:21.330Z"
+    },
+    {
+      "id": "SES-MTJWD3M7-92BB",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:31:54.127Z",
+      "expiresAt": "2026-09-09T09:31:54.127Z"
+    },
+    {
+      "id": "SES-MTJWEGXY-1B8D",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T09:32:58.054Z",
+      "expiresAt": "2026-09-09T09:32:58.054Z"
+    },
+    {
+      "id": "SES-MTJWSVIN-1BA9",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:44:10.127Z",
+      "expiresAt": "2026-09-09T09:44:10.127Z"
+    },
+    {
+      "id": "SES-MTJWZOGN-A8A2",
+      "userId": "USR-MTJUAWLJ-F139",
+      "createdAt": "2026-09-02T09:49:27.575Z",
+      "expiresAt": "2026-09-09T09:49:27.575Z"
+    },
+    {
+      "id": "SES-MTJX07HD-ADD7",
+      "userId": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T09:49:52.225Z",
+      "expiresAt": "2026-09-09T09:49:52.225Z"
+    },
+    {
+      "id": "SES-MTJX296O-8B7F",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:51:27.744Z",
+      "expiresAt": "2026-09-09T09:51:27.745Z"
+    },
+    {
+      "id": "SES-MTJX9GFW-D541",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:57:03.740Z",
+      "expiresAt": "2026-09-09T09:57:03.740Z"
+    },
+    {
+      "id": "SES-MTJXGPLO-7DEC",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:02:42.204Z",
+      "expiresAt": "2026-09-09T10:02:42.205Z"
+    },
+    {
+      "id": "SES-MTJXID3P-F8D0",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:03:59.317Z",
+      "expiresAt": "2026-09-09T10:03:59.317Z"
+    },
+    {
+      "id": "SES-MTJXIGCR-68AA",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:04:03.531Z",
+      "expiresAt": "2026-09-09T10:04:03.531Z"
+    },
+    {
+      "id": "SES-MTJXMMO7-C3FA",
+      "userId": "USR-MTJUAWLJ-F139",
+      "createdAt": "2026-09-02T10:07:18.343Z",
+      "expiresAt": "2026-09-09T10:07:18.343Z"
+    },
+    {
+      "id": "SES-MTJXXSTP-9AFE",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:15:59.534Z",
+      "expiresAt": "2026-09-09T10:15:59.534Z"
+    },
+    {
+      "id": "SES-MTJYJAA1-7CE8",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:32:41.929Z",
+      "expiresAt": "2026-09-09T10:32:41.929Z"
+    },
+    {
+      "id": "SES-MTJYJGZT-5A64",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:32:50.633Z",
+      "expiresAt": "2026-09-09T10:32:50.633Z"
     }
   ],
   "passwordResets": [
@@ -390,6 +697,294 @@
     }
   ],
   "issues": [
+    {
+      "id": "ISS-MTJWZDD9-411D",
+      "version": 1,
+      "reporterId": "USR-MTJUAWLJ-F139",
+      "anonymous": false,
+      "title": "test",
+      "description": "xss",
+      "category": "Other",
+      "location": "sttet",
+      "coordinates": null,
+      "attachments": [],
+      "priority": "medium",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "resolved",
+      "departmentId": "DEPT-GEN",
+      "assigneeId": null,
+      "ai": {
+        "category": "Other",
+        "priority": "medium",
+        "matrixPriority": "medium",
+        "confidence": 0.54,
+        "factors": [
+          "No strong category keywords"
+        ],
+        "safetyRuleApplied": false
+      },
+      "duplicateCandidates": [],
+      "parentIssueId": null,
+      "sla": {
+        "policy": "medium priority",
+        "startedAt": "2026-09-02T09:49:13.196Z",
+        "dueAt": "2026-09-03T09:49:13.196Z",
+        "breached": false,
+        "paused": false
+      },
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "actorId": "USR-MTJUAWLJ-F139",
+          "at": "2026-09-02T09:49:13.196Z"
+        },
+        {
+          "status": "resolved",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T09:50:10.363Z",
+          "reason": "Notification sent using issue_fixed"
+        },
+        {
+          "status": "triaged",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T09:52:15.246Z"
+        },
+        {
+          "status": "resolved",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T09:57:10.381Z",
+          "reason": "Notification sent using issue_fixed"
+        },
+        {
+          "status": "submitted",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T10:05:45.577Z"
+        },
+        {
+          "status": "resolved",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T10:06:34.826Z",
+          "reason": "Notification sent using issue_fixed"
+        },
+        {
+          "status": "resolved",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T10:06:48.843Z",
+          "reason": "Notification sent using issue_fixed"
+        }
+      ],
+      "feedback": {
+        "rating": 5,
+        "comment": "thanks",
+        "createdAt": "2026-09-02T10:07:29.339Z"
+      },
+      "createdAt": "2026-09-02T09:49:13.196Z",
+      "updatedAt": "2026-09-02T10:07:29.339Z"
+    },
+    {
+      "id": "ISS-MTJSBKSM-5853",
+      "version": 1,
+      "reporterId": "ADM-MTITFXQL-1AFD",
+      "anonymous": false,
+      "title": "Trigger OCR completion",
+      "description": "second write",
+      "category": "Other",
+      "location": "Room B-204",
+      "coordinates": null,
+      "attachments": [
+        {
+          "id": "ATT-MTJSBKSN-A0E4",
+          "name": "t.png",
+          "type": "image/png",
+          "size": 90,
+          "sha256": "f79e14aaa51bc56f3e40a26a728d2d0c0e831101d8945cdbbeef119404007ef0",
+          "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==",
+          "ocr": {
+            "status": "completed",
+            "text": "",
+            "imageWidth": 1,
+            "imageHeight": 1,
+            "engine": "local-image-features"
+          }
+        }
+      ],
+      "priority": "medium",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "assigned",
+      "departmentId": "DEPT-GEN",
+      "assigneeId": "DEMO-USR-ROHAN",
+      "ai": {
+        "category": "Other",
+        "priority": "medium",
+        "matrixPriority": "medium",
+        "confidence": 0.54,
+        "factors": [
+          "No strong category keywords"
+        ],
+        "safetyRuleApplied": false
+      },
+      "duplicateCandidates": [],
+      "parentIssueId": null,
+      "sla": {
+        "policy": "medium priority",
+        "startedAt": "2026-09-02T07:38:44.614Z",
+        "dueAt": "2026-09-03T07:38:44.614Z",
+        "breached": false,
+        "paused": false
+      },
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T07:38:44.614Z"
+        },
+        {
+          "status": "assigned",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T08:04:28.388Z",
+          "reason": "Assignment updated"
+        },
+        {
+          "status": "triaged",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T08:04:33.267Z"
+        },
+        {
+          "status": "assigned",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T08:04:34.508Z"
+        },
+        {
+          "status": "triaged",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T08:04:37.542Z"
+        },
+        {
+          "status": "assigned",
+          "actorId": "USR-MTITEZRV-C392",
+          "at": "2026-09-02T08:10:29.483Z",
+          "reason": "Assignment updated"
+        }
+      ],
+      "feedback": null,
+      "createdAt": "2026-09-02T07:38:44.614Z",
+      "updatedAt": "2026-09-02T08:10:29.483Z",
+      "moderation": {
+        "status": "normal",
+        "reason": "reviewed",
+        "by": "USR-MTITEZRV-C392",
+        "at": "2026-09-02T08:04:42.843Z"
+      }
+    },
+    {
+      "id": "ISS-MTJSB6FT-14D7",
+      "version": 1,
+      "reporterId": "ADM-MTITFXQL-1AFD",
+      "anonymous": false,
+      "title": "Test OCR pipeline",
+      "description": "Small test image upload",
+      "category": "Plumbing",
+      "location": "Room B-204",
+      "coordinates": null,
+      "attachments": [
+        {
+          "id": "ATT-MTJSB6FT-3B39",
+          "name": "t.png",
+          "type": "image/png",
+          "size": 90,
+          "sha256": "f79e14aaa51bc56f3e40a26a728d2d0c0e831101d8945cdbbeef119404007ef0",
+          "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==",
+          "ocr": {
+            "status": "completed",
+            "text": "",
+            "imageWidth": 1,
+            "imageHeight": 1,
+            "engine": "local-image-features"
+          }
+        }
+      ],
+      "priority": "medium",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "resolved",
+      "departmentId": "DEPT-MAINT",
+      "assigneeId": null,
+      "ai": {
+        "category": "Plumbing",
+        "priority": "medium",
+        "matrixPriority": "medium",
+        "confidence": 0.88,
+        "factors": [
+          "Matched plumbing keywords"
+        ],
+        "safetyRuleApplied": false
+      },
+      "duplicateCandidates": [],
+      "parentIssueId": null,
+      "sla": {
+        "policy": "medium priority",
+        "startedAt": "2026-09-02T07:38:26.008Z",
+        "dueAt": "2026-09-03T07:38:26.008Z",
+        "breached": false,
+        "paused": false
+      },
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T07:38:26.008Z"
+        },
+        {
+          "status": "resolved",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T07:45:44.147Z"
+        }
+      ],
+      "feedback": {
+        "rating": 5,
+        "comment": "Great, fixed fast!",
+        "createdAt": "2026-09-02T07:45:44.173Z"
+      },
+      "createdAt": "2026-09-02T07:38:26.008Z",
+      "updatedAt": "2026-09-02T07:45:44.173Z"
+    },
+    {
+      "id": "ISS-MTJSANEF-9E3D",
+      "version": 1,
+      "reporterId": "ANONYMOUS",
+      "anonymous": true,
+      "source": "whatsapp",
+      "title": "A projector in room B-204 is not switching on, and there is a faint burning smel",
+      "description": "A projector in room B-204 is not switching on, and there is a faint burning smell. Please check urgently.",
+      "category": "IT & network",
+      "location": "Inbound message",
+      "status": "submitted",
+      "departmentId": "DEPT-IT",
+      "assigneeId": null,
+      "ai": {
+        "category": "IT & network",
+        "priority": "medium",
+        "confidence": 0.88,
+        "factors": [
+          "Matched it & network keywords"
+        ]
+      },
+      "duplicateCandidates": [],
+      "parentIssueId": null,
+      "sla": null,
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "actorId": "ANONYMOUS",
+          "at": "2026-09-02T07:38:01.335Z"
+        }
+      ],
+      "feedback": null,
+      "createdAt": "2026-09-02T07:38:01.335Z",
+      "updatedAt": "2026-09-02T07:38:01.335Z"
+    },
     {
       "id": "ISS-MTJNDECP-5549",
       "version": 1,
@@ -407,7 +1002,7 @@
       "priority": "low",
       "impact": "low",
       "urgency": "medium",
-      "status": "triaged",
+      "status": "closed",
       "departmentId": "DEPT-ELEC",
       "assigneeId": null,
       "ai": {
@@ -439,11 +1034,16 @@
           "status": "triaged",
           "actorId": "ADM-MTITFXQL-1AFD",
           "at": "2026-09-02T05:22:06.220Z"
+        },
+        {
+          "status": "closed",
+          "actorId": "ADM-MTITFXQL-1AFD",
+          "at": "2026-09-02T07:06:21.571Z"
         }
       ],
       "feedback": null,
       "createdAt": "2026-09-02T05:20:11.497Z",
-      "updatedAt": "2026-09-02T05:22:06.220Z"
+      "updatedAt": "2026-09-02T07:06:21.571Z"
     },
     {
       "id": "ISS-MTIW0YRY-EFD2",
@@ -863,6 +1463,56 @@
   ],
   "lostFound": [
     {
+      "id": "LST-MTJWJRJW-4F6E",
+      "version": 1,
+      "reporterId": "USR-MTJVZFO3-F516",
+      "kind": "lost",
+      "itemName": "vatsal ki virginity",
+      "description": "Lost in men's wahroom. Lost by Shivang Maurya, Darshan Gohil and Maanit Sharma",
+      "category": "Personal item",
+      "color": "Rainbow",
+      "brand": "OnlyFans",
+      "privateAttributes": "Private talks, can't say",
+      "publicAttributes": {
+        "color": "Rainbow",
+        "brand": "OnlyFans"
+      },
+      "attachments": [],
+      "coordinates": null,
+      "location": "Washroom",
+      "eventDate": "2026-09-02",
+      "status": "matching",
+      "sensitive": true,
+      "inventory": null,
+      "createdAt": "2026-09-02T09:37:05.084Z",
+      "updatedAt": "2026-09-02T09:37:05.084Z"
+    },
+    {
+      "id": "LST-MTJWAC5O-3095",
+      "version": 1,
+      "reporterId": "USR-MTJVZFO3-F516",
+      "kind": "lost",
+      "itemName": "Raashid ki begum",
+      "description": "black tshirt brown pants , 5'8''",
+      "category": "Other",
+      "color": "baby pink",
+      "brand": "gay",
+      "privateAttributes": "prefer not to say( gupt bimari ) ",
+      "publicAttributes": {
+        "color": "baby pink",
+        "brand": "gay"
+      },
+      "attachments": [],
+      "coordinates": null,
+      "location": "passageway",
+      "eventDate": "2026-09-02",
+      "status": "new",
+      "sensitive": false,
+      "inventory": null,
+      "createdAt": "2026-09-02T09:29:45.228Z",
+      "updatedAt": "2026-09-02T09:35:24.324Z"
+    },
+    {
       "id": "FND-MTIW0YSJ-C6AB",
       "version": 1,
       "reporterId": "USR-MTIW0YBE-BF68",
@@ -911,43 +1561,12 @@
       "coordinates": null,
       "location": "Central Library",
       "eventDate": "2026-08-31",
-      "status": "matching",
+      "status": "claim_review",
       "sensitive": false,
       "inventory": null,
       "demoBatch": "DELTACARE-DEMO-1",
       "createdAt": "2026-08-31T22:31:37.229Z",
-      "updatedAt": "2026-09-02T06:51:31.843Z"
-    },
-    {
-      "id": "DEMO-FND-001",
-      "version": 1,
-      "reporterId": "DEMO-USR-MAYA",
-      "kind": "found",
-      "itemName": "Blue metal water bottle",
-      "description": "Blue bottle with outdoor sticker found under desk",
-      "category": "Personal item",
-      "color": "blue",
-      "brand": "HydroPeak",
-      "privateAttributes": "Demo verification detail",
-      "publicAttributes": {
-        "color": "blue",
-        "brand": "HydroPeak"
-      },
-      "attachments": [],
-      "coordinates": null,
-      "location": "Central Library",
-      "eventDate": "2026-09-01",
-      "status": "matching",
-      "sensitive": false,
-      "inventory": {
-        "tag": "DEMO-TAG-2",
-        "storageBin": "PERSONAL-B2",
-        "custodianId": "DEMO-USR-MAYA",
-        "checkedInAt": "2026-09-01T00:31:37.229Z"
-      },
-      "demoBatch": "DELTACARE-DEMO-1",
-      "createdAt": "2026-09-01T00:31:37.229Z",
-      "updatedAt": "2026-09-02T06:51:34.551Z"
+      "updatedAt": "2026-09-02T08:11:28.267Z"
     },
     {
       "id": "DEMO-LST-002",
@@ -968,12 +1587,12 @@
       "coordinates": null,
       "location": "Student Centre",
       "eventDate": "2026-08-31",
-      "status": "claim_review",
+      "status": "possible_match",
       "sensitive": false,
       "inventory": null,
       "demoBatch": "DELTACARE-DEMO-1",
       "createdAt": "2026-08-31T10:31:37.229Z",
-      "updatedAt": "2026-09-02T06:51:10.918Z"
+      "updatedAt": "2026-09-02T08:11:54.679Z"
     },
     {
       "id": "DEMO-FND-003",
@@ -994,7 +1613,7 @@
       "coordinates": null,
       "location": "North Gate",
       "eventDate": "2026-09-01",
-      "status": "matching",
+      "status": "possible_match",
       "sensitive": true,
       "inventory": {
         "tag": "DEMO-TAG-5",
@@ -1004,7 +1623,7 @@
       },
       "demoBatch": "DELTACARE-DEMO-1",
       "createdAt": "2026-09-01T12:31:37.229Z",
-      "updatedAt": "2026-09-01T12:31:37.229Z"
+      "updatedAt": "2026-09-02T08:11:54.679Z"
     }
   ],
   "auditLogs": [
@@ -2039,18 +2658,1047 @@
         "itemName": "Wireless earbuds case"
       },
       "createdAt": "2026-09-02T06:52:07.543Z"
+    },
+    {
+      "id": "AUD-MTJR4W5M-B00F",
+      "action": "match.accepted",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "matchId": "DEMO-MCH-001"
+      },
+      "createdAt": "2026-09-02T07:05:33.130Z"
+    },
+    {
+      "id": "AUD-MTJR5XJ7-ED7C",
+      "action": "issue.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "issueId": "ISS-MTJNDECP-5549",
+        "status": "closed"
+      },
+      "createdAt": "2026-09-02T07:06:21.571Z"
+    },
+    {
+      "id": "AUD-MTJS6QIE-5915",
+      "action": "user.access_updated",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "targetUserId": "USR-MTITEZRV-C392",
+        "role": "super_admin",
+        "suspended": false
+      },
+      "createdAt": "2026-09-02T07:34:58.742Z"
+    },
+    {
+      "id": "AUD-MTJS7ANX-969F",
+      "action": "user.access_updated",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "targetUserId": "ADM-MTITFXQL-1AFD",
+        "role": "super_admin"
+      },
+      "createdAt": "2026-09-02T07:35:24.861Z"
+    },
+    {
+      "id": "AUD-MTJS7TCF-C4D8",
+      "action": "user.access_updated",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "targetUserId": "USR-MTITEZRV-C392",
+        "role": "staff",
+        "suspended": false
+      },
+      "createdAt": "2026-09-02T07:35:49.071Z"
+    },
+    {
+      "id": "AUD-MTJS86Q5-6D86",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:36:06.413Z"
+    },
+    {
+      "id": "AUD-MTJSANEF-6A3B",
+      "action": "issue.created_via_webhook",
+      "userId": "SYSTEM",
+      "metadata": {
+        "issueId": "ISS-MTJSANEF-9E3D",
+        "provider": "whatsapp"
+      },
+      "createdAt": "2026-09-02T07:38:01.335Z"
+    },
+    {
+      "id": "AUD-MTJSANEF-E32F",
+      "action": "webhook.whatsapp_received",
+      "userId": "SYSTEM",
+      "metadata": {
+        "issueId": "ISS-MTJSANEF-9E3D"
+      },
+      "createdAt": "2026-09-02T07:38:01.335Z"
+    },
+    {
+      "id": "AUD-MTJSATO8-0531",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:38:09.464Z"
+    },
+    {
+      "id": "AUD-MTJSB6FE-4450",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:38:25.994Z"
+    },
+    {
+      "id": "AUD-MTJSB6FT-3442",
+      "action": "issue.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "issueId": "ISS-MTJSB6FT-14D7",
+        "ai": {
+          "category": "Plumbing",
+          "priority": "medium",
+          "matrixPriority": "medium",
+          "confidence": 0.88,
+          "factors": [
+            "Matched plumbing keywords"
+          ],
+          "safetyRuleApplied": false
+        }
+      },
+      "createdAt": "2026-09-02T07:38:26.009Z"
+    },
+    {
+      "id": "AUD-MTJSBKSB-EF50",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:38:44.603Z"
+    },
+    {
+      "id": "AUD-MTJSBKSN-02B0",
+      "action": "issue.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "ai": {
+          "category": "Other",
+          "priority": "medium",
+          "matrixPriority": "medium",
+          "confidence": 0.54,
+          "factors": [
+            "No strong category keywords"
+          ],
+          "safetyRuleApplied": false
+        }
+      },
+      "createdAt": "2026-09-02T07:38:44.615Z"
+    },
+    {
+      "id": "AUD-MTJSDZ0I-18C0",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:40:36.354Z"
+    },
+    {
+      "id": "AUD-MTJSE70V-DAFE",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:40:46.735Z"
+    },
+    {
+      "id": "AUD-MTJSEAG6-3159",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:40:51.174Z"
+    },
+    {
+      "id": "AUD-MTJSKKFZ-C110",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:45:44.063Z"
+    },
+    {
+      "id": "AUD-MTJSKKIB-8C93",
+      "action": "issue.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "issueId": "ISS-MTJSB6FT-14D7",
+        "status": "resolved"
+      },
+      "createdAt": "2026-09-02T07:45:44.147Z"
+    },
+    {
+      "id": "AUD-MTJSKKJ1-C82F",
+      "action": "issue.feedback",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "issueId": "ISS-MTJSB6FT-14D7"
+      },
+      "createdAt": "2026-09-02T07:45:44.173Z"
+    },
+    {
+      "id": "AUD-MTJSKRI6-0D29",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:45:53.214Z"
+    },
+    {
+      "id": "AUD-MTJSL864-DED2",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:46:14.812Z"
+    },
+    {
+      "id": "AUD-MTJSLQO1-3AC6",
+      "action": "admin.seeded",
+      "userId": "ADM-MTJSLQE5-D407",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:46:38.785Z"
+    },
+    {
+      "id": "AUD-MTJSLZUJ-1A38",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:46:50.683Z"
+    },
+    {
+      "id": "AUD-MTJSM63B-E947",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:46:58.776Z"
+    },
+    {
+      "id": "AUD-MTJSMAOA-7478",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:47:04.714Z"
+    },
+    {
+      "id": "AUD-MTJSVLED-B865",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:54:18.517Z"
+    },
+    {
+      "id": "AUD-MTJSWKND-0436",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:55:04.201Z"
+    },
+    {
+      "id": "AUD-MTJSXLNS-2AFB",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T07:55:52.168Z"
+    },
+    {
+      "id": "AUD-MTJSXLOV-A78B",
+      "action": "user.access_updated",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "targetUserId": "USR-MTITEZRV-C392",
+        "role": "admin",
+        "suspended": false
+      },
+      "createdAt": "2026-09-02T07:55:52.207Z"
+    },
+    {
+      "id": "AUD-MTJT8NZ8-AAEB",
+      "action": "issue.assigned",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "departmentId": "DEPT-GEN",
+        "assigneeId": "DEMO-USR-ROHAN"
+      },
+      "createdAt": "2026-09-02T08:04:28.388Z"
+    },
+    {
+      "id": "AUD-MTJT8RQR-7BDB",
+      "action": "issue.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "status": "triaged"
+      },
+      "createdAt": "2026-09-02T08:04:33.267Z"
+    },
+    {
+      "id": "AUD-MTJT8SP8-4F4A",
+      "action": "issue.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "status": "assigned"
+      },
+      "createdAt": "2026-09-02T08:04:34.508Z"
+    },
+    {
+      "id": "AUD-MTJT8V1I-7CCC",
+      "action": "issue.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "status": "triaged"
+      },
+      "createdAt": "2026-09-02T08:04:37.542Z"
+    },
+    {
+      "id": "AUD-MTJT8X70-8A24",
+      "action": "issue.moderation_updated",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "status": "flagged"
+      },
+      "createdAt": "2026-09-02T08:04:40.332Z"
+    },
+    {
+      "id": "AUD-MTJT8Z4R-063D",
+      "action": "issue.moderation_updated",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "status": "normal"
+      },
+      "createdAt": "2026-09-02T08:04:42.843Z"
+    },
+    {
+      "id": "AUD-MTJTDRVY-56CC",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:08:26.734Z"
+    },
+    {
+      "id": "AUD-MTJTF1IQ-D3E5",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:09:25.874Z"
+    },
+    {
+      "id": "AUD-MTJTGELO-0EA3",
+      "action": "issue.assigned",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJSBKSM-5853",
+        "departmentId": "DEPT-GEN",
+        "assigneeId": "DEMO-USR-ROHAN"
+      },
+      "createdAt": "2026-09-02T08:10:29.484Z"
+    },
+    {
+      "id": "AUD-MTJTHNYJ-14A5",
+      "action": "lost_found.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "DEMO-LST-001",
+        "status": "claim_review"
+      },
+      "createdAt": "2026-09-02T08:11:28.267Z"
+    },
+    {
+      "id": "AUD-MTJTHRK6-D113",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:11:32.934Z"
+    },
+    {
+      "id": "AUD-MTJTHXJG-FF46",
+      "action": "lost_found.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "DEMO-FND-001",
+        "status": "claim_review"
+      },
+      "createdAt": "2026-09-02T08:11:40.684Z"
+    },
+    {
+      "id": "AUD-MTJTI154-BD26",
+      "action": "lost_found.deleted",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "DEMO-FND-001",
+        "itemName": "Blue metal water bottle"
+      },
+      "createdAt": "2026-09-02T08:11:45.352Z"
+    },
+    {
+      "id": "AUD-MTJTI8C7-7F8A",
+      "action": "lost_found.match_sent_to_victim",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "lostItemId": "DEMO-LST-002",
+        "foundItemIds": [
+          "DEMO-FND-003"
+        ]
+      },
+      "createdAt": "2026-09-02T08:11:54.679Z"
+    },
+    {
+      "id": "AUD-MTJU9G0Y-82DE",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:33:04.354Z"
+    },
+    {
+      "id": "AUD-MTJUAWTP-C6BD",
+      "action": "account.created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {
+        "role": "student"
+      },
+      "createdAt": "2026-09-02T08:34:12.781Z"
+    },
+    {
+      "id": "AUD-MTJUAYFY-26EE",
+      "action": "session.created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:34:14.878Z"
+    },
+    {
+      "id": "AUD-MTJUBOEH-614C",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:34:48.521Z"
+    },
+    {
+      "id": "AUD-MTJUGDM7-19E4",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T08:38:27.823Z"
+    },
+    {
+      "id": "AUD-MTJVEYFL-D085",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:05:21.105Z"
+    },
+    {
+      "id": "AUD-MTJVFG2T-58D6",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:05:43.973Z"
+    },
+    {
+      "id": "AUD-MTJVM12A-BE1B",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:10:51.106Z"
+    },
+    {
+      "id": "AUD-MTJVZFZU-2C50",
+      "action": "account.created",
+      "userId": "USR-MTJVZFO3-F516",
+      "metadata": {
+        "role": "student"
+      },
+      "createdAt": "2026-09-02T09:21:16.986Z"
+    },
+    {
+      "id": "AUD-MTJVZJCK-DFE3",
+      "action": "session.created",
+      "userId": "USR-MTJVZFO3-F516",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:21:21.332Z"
+    },
+    {
+      "id": "AUD-MTJWAC5Q-86B0",
+      "action": "lost_found.lost_created",
+      "userId": "USR-MTJVZFO3-F516",
+      "metadata": {
+        "recordId": "LST-MTJWAC5O-3095",
+        "matches": 0
+      },
+      "createdAt": "2026-09-02T09:29:45.231Z"
+    },
+    {
+      "id": "AUD-MTJWBCQ1-5FFD",
+      "action": "thread.message_added",
+      "userId": "USR-MTJVZFO3-F516",
+      "metadata": {
+        "threadType": "lostFound",
+        "threadId": "LST-MTJWAC5O-3095"
+      },
+      "createdAt": "2026-09-02T09:30:32.617Z"
+    },
+    {
+      "id": "AUD-MTJWCA5I-A60F",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:31:15.942Z"
+    },
+    {
+      "id": "AUD-MTJWD3M8-5A58",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:31:54.128Z"
+    },
+    {
+      "id": "AUD-MTJWDPDT-1BD1",
+      "action": "thread.message_added",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "threadType": "lostFound",
+        "threadId": "LST-MTJWAC5O-3095"
+      },
+      "createdAt": "2026-09-02T09:32:22.337Z"
+    },
+    {
+      "id": "AUD-MTJWEGXZ-9F78",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:32:58.055Z"
+    },
+    {
+      "id": "AUD-MTJWHHGO-CF98",
+      "action": "lost_found.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "LST-MTJWAC5O-3095",
+        "status": "closed"
+      },
+      "createdAt": "2026-09-02T09:35:18.696Z"
+    },
+    {
+      "id": "AUD-MTJWHLT0-A6C5",
+      "action": "lost_found.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "recordId": "LST-MTJWAC5O-3095",
+        "status": "new"
+      },
+      "createdAt": "2026-09-02T09:35:24.324Z"
+    },
+    {
+      "id": "AUD-MTJWJRJX-54A9",
+      "action": "lost_found.lost_created",
+      "userId": "USR-MTJVZFO3-F516",
+      "metadata": {
+        "recordId": "LST-MTJWJRJW-4F6E",
+        "matches": 0
+      },
+      "createdAt": "2026-09-02T09:37:05.085Z"
+    },
+    {
+      "id": "AUD-MTJWKB9P-7377",
+      "action": "thread.message_added",
+      "userId": "USR-MTJVZFO3-F516",
+      "metadata": {
+        "threadType": "lostFound",
+        "threadId": "LST-MTJWJRJW-4F6E"
+      },
+      "createdAt": "2026-09-02T09:37:30.637Z"
+    },
+    {
+      "id": "AUD-MTJWSVIO-25E2",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:44:10.128Z"
+    },
+    {
+      "id": "AUD-MTJWYZ9D-8060",
+      "action": "profile.updated",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {
+        "fields": [
+          "name",
+          "email",
+          "campusId",
+          "phone"
+        ],
+        "preferencesUpdated": true
+      },
+      "createdAt": "2026-09-02T09:48:54.913Z"
+    },
+    {
+      "id": "AUD-MTJWZDD9-A961",
+      "action": "issue.created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {
+        "issueId": "ISS-MTJWZDD9-411D",
+        "ai": {
+          "category": "Other",
+          "priority": "medium",
+          "matrixPriority": "medium",
+          "confidence": 0.54,
+          "factors": [
+            "No strong category keywords"
+          ],
+          "safetyRuleApplied": false
+        }
+      },
+      "createdAt": "2026-09-02T09:49:13.197Z"
+    },
+    {
+      "id": "AUD-MTJWZOGP-04F1",
+      "action": "session.created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:49:27.577Z"
+    },
+    {
+      "id": "AUD-MTJWZW43-FBEA",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:49:37.491Z"
+    },
+    {
+      "id": "AUD-MTJX07HE-96E9",
+      "action": "session.created",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:49:52.226Z"
+    },
+    {
+      "id": "AUD-MTJX0LH7-B158",
+      "action": "communication.sent",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "communicationId": "MSG-MTJX0LH7-6CC1",
+        "entityType": "issue",
+        "entityId": "ISS-MTJWZDD9-411D",
+        "channels": [
+          "email",
+          "in_app"
+        ],
+        "deliveries": [
+          {
+            "channel": "email",
+            "status": "sent"
+          },
+          {
+            "channel": "in_app",
+            "status": "sent"
+          }
+        ]
+      },
+      "createdAt": "2026-09-02T09:50:10.364Z"
+    },
+    {
+      "id": "AUD-MTJX296Q-F413",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:51:27.746Z"
+    },
+    {
+      "id": "AUD-MTJX29GX-2825",
+      "action": "admin.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "targetUserId": "ADM-MTJX29GX-E0CF"
+      },
+      "createdAt": "2026-09-02T09:51:28.113Z"
+    },
+    {
+      "id": "AUD-MTJX29HF-5960",
+      "action": "user.updated",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "targetUserId": "ADM-MTJX29GX-E0CF",
+        "fields": [
+          "name",
+          "phone"
+        ]
+      },
+      "createdAt": "2026-09-02T09:51:28.131Z"
+    },
+    {
+      "id": "AUD-MTJX29HV-ED15",
+      "action": "user.deleted",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "targetUserId": "ADM-MTJX29GX-E0CF",
+        "name": "Test Updated",
+        "email": "testuser@example.com"
+      },
+      "createdAt": "2026-09-02T09:51:28.147Z"
+    },
+    {
+      "id": "AUD-MTJX39U6-6B2D",
+      "action": "issue.status_changed",
+      "userId": "USR-MTITEZRV-C392",
+      "metadata": {
+        "issueId": "ISS-MTJWZDD9-411D",
+        "status": "triaged"
+      },
+      "createdAt": "2026-09-02T09:52:15.246Z"
+    },
+    {
+      "id": "AUD-MTJX9GFX-5F02",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T09:57:03.741Z"
+    },
+    {
+      "id": "AUD-MTJX9LKD-86DB",
+      "action": "communication.sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "communicationId": "MSG-MTJX9LKD-35FB",
+        "entityType": "issue",
+        "entityId": "ISS-MTJWZDD9-411D",
+        "channels": [
+          "email"
+        ],
+        "deliveries": [
+          {
+            "channel": "email",
+            "status": "sent"
+          }
+        ]
+      },
+      "createdAt": "2026-09-02T09:57:10.381Z"
+    },
+    {
+      "id": "AUD-MTJXGPLQ-262F",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:02:42.206Z"
+    },
+    {
+      "id": "AUD-MTJXID3Q-7E64",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:03:59.318Z"
+    },
+    {
+      "id": "AUD-MTJXIGCT-DC05",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:04:03.533Z"
+    },
+    {
+      "id": "AUD-MTJXKN3D-9603",
+      "action": "issue.status_changed",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "issueId": "ISS-MTJWZDD9-411D",
+        "status": "submitted"
+      },
+      "createdAt": "2026-09-02T10:05:45.577Z"
+    },
+    {
+      "id": "AUD-MTJXLP3E-852D",
+      "action": "communication.sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "communicationId": "MSG-MTJXLP3E-4D19",
+        "entityType": "issue",
+        "entityId": "ISS-MTJWZDD9-411D",
+        "channels": [
+          "in_app",
+          "email"
+        ],
+        "deliveries": [
+          {
+            "channel": "in_app",
+            "status": "sent"
+          },
+          {
+            "channel": "email",
+            "status": "sent"
+          }
+        ]
+      },
+      "createdAt": "2026-09-02T10:06:34.826Z"
+    },
+    {
+      "id": "AUD-MTJXLZWS-15B3",
+      "action": "communication.sent",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {
+        "communicationId": "MSG-MTJXLZWS-4953",
+        "entityType": "issue",
+        "entityId": "ISS-MTJWZDD9-411D",
+        "channels": [
+          "in_app",
+          "email"
+        ],
+        "deliveries": [
+          {
+            "channel": "in_app",
+            "status": "sent"
+          },
+          {
+            "channel": "email",
+            "status": "sent"
+          }
+        ]
+      },
+      "createdAt": "2026-09-02T10:06:48.844Z"
+    },
+    {
+      "id": "AUD-MTJXMMO9-6738",
+      "action": "session.created",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:07:18.345Z"
+    },
+    {
+      "id": "AUD-MTJXMV5N-C940",
+      "action": "issue.feedback",
+      "userId": "USR-MTJUAWLJ-F139",
+      "metadata": {
+        "issueId": "ISS-MTJWZDD9-411D"
+      },
+      "createdAt": "2026-09-02T10:07:29.339Z"
+    },
+    {
+      "id": "AUD-MTJXXSTR-E33B",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:15:59.535Z"
+    },
+    {
+      "id": "AUD-MTJYJAA3-D7B6",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:32:41.931Z"
+    },
+    {
+      "id": "AUD-MTJYJGZU-6DD9",
+      "action": "session.created",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "metadata": {},
+      "createdAt": "2026-09-02T10:32:50.634Z"
     }
   ],
   "notifications": [
     {
-      "id": "NTF-MTJQMX3R-42DD",
-      "userId": "DEMO-USR-MAYA",
-      "title": "Item status: matching",
-      "message": "DEMO-FND-001 is now matching.",
-      "entityType": "lostFound",
-      "entityId": "DEMO-FND-001",
+      "id": "NTF-MTJXLZWR-7271",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "DeltaCare update: test",
+      "message": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.\n\n7878yugbu",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
       "read": false,
-      "createdAt": "2026-09-02T06:51:34.551Z"
+      "createdAt": "2026-09-02T10:06:48.844Z"
+    },
+    {
+      "id": "NTF-MTJXLP3E-8F82",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "DeltaCare update: test",
+      "message": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.\n\nthe issue was at floor 3",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "read": false,
+      "createdAt": "2026-09-02T10:06:34.826Z"
+    },
+    {
+      "id": "NTF-MTJXKN3D-3403",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "Issue submitted",
+      "message": "ISS-MTJWZDD9-411D is now submitted.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "read": false,
+      "createdAt": "2026-09-02T10:05:45.577Z"
+    },
+    {
+      "id": "NTF-MTJX39U6-53BB",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "Issue triaged",
+      "message": "ISS-MTJWZDD9-411D is now triaged.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "read": false,
+      "createdAt": "2026-09-02T09:52:15.246Z"
+    },
+    {
+      "id": "NTF-MTJX0LH7-6ABC",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "DeltaCare update: test",
+      "message": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "read": false,
+      "createdAt": "2026-09-02T09:50:10.363Z"
+    },
+    {
+      "id": "NTF-MTJWZDD9-5CEA",
+      "userId": "USR-MTJUAWLJ-F139",
+      "title": "Report received",
+      "message": "ISS-MTJWZDD9-411D was routed to Student Services.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "read": false,
+      "createdAt": "2026-09-02T09:49:13.197Z"
+    },
+    {
+      "id": "NTF-MTJWHLT0-7CC2",
+      "userId": "USR-MTJVZFO3-F516",
+      "title": "Item status: new",
+      "message": "LST-MTJWAC5O-3095 is now new.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWAC5O-3095",
+      "read": false,
+      "createdAt": "2026-09-02T09:35:24.324Z"
+    },
+    {
+      "id": "NTF-MTJWHHGO-3203",
+      "userId": "USR-MTJVZFO3-F516",
+      "title": "Item status: closed",
+      "message": "LST-MTJWAC5O-3095 is now closed.",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWAC5O-3095",
+      "read": false,
+      "createdAt": "2026-09-02T09:35:18.696Z"
+    },
+    {
+      "id": "NTF-MTJWDPDT-1304",
+      "userId": "USR-MTJVZFO3-F516",
+      "title": "New message on your item",
+      "message": "shivang: Yes tell me",
+      "entityType": "lostFound",
+      "entityId": "LST-MTJWAC5O-3095",
+      "read": false,
+      "createdAt": "2026-09-02T09:32:22.337Z"
+    },
+    {
+      "id": "NTF-MTJTI8C7-6736",
+      "userId": "DEMO-USR-AANYA",
+      "title": "Possible match for your lost item",
+      "message": "We paired your Black wireless earbuds with found item(s): Student identity card. Review the chat to arrange return.",
+      "entityType": "lostFound",
+      "entityId": "DEMO-LST-002",
+      "read": false,
+      "createdAt": "2026-09-02T08:11:54.679Z"
+    },
+    {
+      "id": "NTF-MTJTHNYJ-C537",
+      "userId": "DEMO-USR-AANYA",
+      "title": "Item status: claim review",
+      "message": "DEMO-LST-001 is now claim review.",
+      "entityType": "lostFound",
+      "entityId": "DEMO-LST-001",
+      "read": false,
+      "createdAt": "2026-09-02T08:11:28.267Z"
+    },
+    {
+      "id": "NTF-MTJTGELN-8624",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Team assignment updated",
+      "message": "ISS-MTJSBKSM-5853 has been assigned to a campus team.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "read": false,
+      "createdAt": "2026-09-02T08:10:29.483Z"
+    },
+    {
+      "id": "NTF-MTJT8V1I-C88C",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Issue triaged",
+      "message": "ISS-MTJSBKSM-5853 is now triaged.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "read": false,
+      "createdAt": "2026-09-02T08:04:37.542Z"
+    },
+    {
+      "id": "NTF-MTJT8SP8-5CF8",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Issue assigned",
+      "message": "ISS-MTJSBKSM-5853 is now assigned.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "read": false,
+      "createdAt": "2026-09-02T08:04:34.508Z"
+    },
+    {
+      "id": "NTF-MTJT8RQR-A97B",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Issue triaged",
+      "message": "ISS-MTJSBKSM-5853 is now triaged.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "read": false,
+      "createdAt": "2026-09-02T08:04:33.267Z"
+    },
+    {
+      "id": "NTF-MTJT8NZ8-E20D",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Team assignment updated",
+      "message": "ISS-MTJSBKSM-5853 has been assigned to a campus team.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "read": false,
+      "createdAt": "2026-09-02T08:04:28.388Z"
+    },
+    {
+      "id": "NTF-MTJSKKIB-3BB6",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Issue resolved",
+      "message": "ISS-MTJSB6FT-14D7 is now resolved.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSB6FT-14D7",
+      "read": false,
+      "createdAt": "2026-09-02T07:45:44.147Z"
+    },
+    {
+      "id": "NTF-MTJSBKSN-1F86",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Report received",
+      "message": "ISS-MTJSBKSM-5853 was routed to Student Services.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "read": false,
+      "createdAt": "2026-09-02T07:38:44.615Z"
+    },
+    {
+      "id": "NTF-MTJSB6FT-3F37",
+      "userId": "ADM-MTITFXQL-1AFD",
+      "title": "Report received",
+      "message": "ISS-MTJSB6FT-14D7 was routed to Campus Maintenance.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJSB6FT-14D7",
+      "read": false,
+      "createdAt": "2026-09-02T07:38:26.009Z"
+    },
+    {
+      "id": "NTF-MTJR5XJ7-C7BB",
+      "userId": "USR-MTITEZRV-C392",
+      "title": "Issue closed",
+      "message": "ISS-MTJNDECP-5549 is now closed.",
+      "entityType": "issue",
+      "entityId": "ISS-MTJNDECP-5549",
+      "read": false,
+      "createdAt": "2026-09-02T07:06:21.571Z"
     },
     {
       "id": "NTF-MTJQMV0J-266D",
@@ -2061,16 +3709,6 @@
       "entityId": "DEMO-LST-001",
       "read": false,
       "createdAt": "2026-09-02T06:51:31.843Z"
-    },
-    {
-      "id": "NTF-MTJQMJJH-C573",
-      "userId": "DEMO-USR-MAYA",
-      "title": "Item status: claim review",
-      "message": "DEMO-FND-001 is now claim review.",
-      "entityType": "lostFound",
-      "entityId": "DEMO-FND-001",
-      "read": false,
-      "createdAt": "2026-09-02T06:51:16.973Z"
     },
     {
       "id": "NTF-MTJQMEVA-F371",
@@ -2111,26 +3749,6 @@
       "entityId": "DEMO-LST-001",
       "read": false,
       "createdAt": "2026-09-02T06:50:57.965Z"
-    },
-    {
-      "id": "NTF-MTJQJSNK-4203",
-      "userId": "DEMO-USR-MAYA",
-      "title": "Item status: matching",
-      "message": "DEMO-FND-001 is now matching.",
-      "entityType": "lostFound",
-      "entityId": "DEMO-FND-001",
-      "read": false,
-      "createdAt": "2026-09-02T06:49:08.816Z"
-    },
-    {
-      "id": "NTF-MTJQJQIH-07BA",
-      "userId": "DEMO-USR-MAYA",
-      "title": "Item status: closed",
-      "message": "DEMO-FND-001 is now closed.",
-      "entityType": "lostFound",
-      "entityId": "DEMO-FND-001",
-      "read": false,
-      "createdAt": "2026-09-02T06:49:06.041Z"
     },
     {
       "id": "NTF-MTJQJ5HK-EF8E",
@@ -2267,26 +3885,28 @@
   "claims": [],
   "matches": [
     {
-      "id": "DEMO-MCH-001",
-      "sourceItemId": "DEMO-FND-001",
-      "candidateItemId": "DEMO-LST-001",
-      "score": 92,
+      "id": "MCH-MTJTI8C6-188D",
+      "lostItemId": "DEMO-LST-002",
+      "foundItemId": "DEMO-FND-003",
+      "sourceItemId": "DEMO-FND-003",
+      "candidateItemId": "DEMO-LST-002",
+      "score": 100,
+      "overallScore": 100,
       "components": {
-        "text": 94,
+        "text": 100,
         "image": 0,
         "ocr": 0,
         "attributes": 100,
         "location": 100,
-        "time": 96
+        "time": 100
       },
       "explanation": [
-        "Strong description match",
-        "Same category and location",
-        "Plausible reporting time"
+        "Manually paired by staff",
+        "Sent to the lost-item reporter for review"
       ],
-      "status": "suggested",
-      "demoBatch": "DELTACARE-DEMO-1",
-      "createdAt": "2026-09-01T16:31:37.228Z"
+      "status": "accepted",
+      "createdBy": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T08:11:54.679Z"
     }
   ],
   "custodyEvents": [
@@ -2300,7 +3920,61 @@
       "createdAt": "2026-09-01T16:34:41.827Z"
     }
   ],
-  "jobs": [],
+  "jobs": [
+    {
+      "id": "JOB-MTJSANEE-6BF5",
+      "type": "whatsapp_webhook",
+      "payload": {
+        "Body": "A projector in room B-204 is not switching on, and there is a faint burning smell. Please check urgently.",
+        "From": "+919876543210"
+      },
+      "status": "completed",
+      "retryCount": 0,
+      "createdAt": "2026-09-02T07:38:01.334Z",
+      "completedAt": "2026-09-02T07:38:01.335Z",
+      "result": {
+        "issueId": "ISS-MTJSANEF-9E3D"
+      }
+    },
+    {
+      "id": "JOB-MTJSB6FT-5252",
+      "type": "ocr",
+      "entityId": "ISS-MTJSB6FT-14D7",
+      "attachmentId": "ATT-MTJSB6FT-3B39",
+      "status": "completed",
+      "retryCount": 0,
+      "createdAt": "2026-09-02T07:38:26.008Z",
+      "completedAt": "2026-09-02T07:38:44.603Z",
+      "result": {
+        "ocr": {
+          "status": "completed",
+          "text": "",
+          "imageWidth": 1,
+          "imageHeight": 1,
+          "engine": "local-image-features"
+        }
+      }
+    },
+    {
+      "id": "JOB-MTJSBKSN-353E",
+      "type": "ocr",
+      "entityId": "ISS-MTJSBKSM-5853",
+      "attachmentId": "ATT-MTJSBKSN-A0E4",
+      "status": "completed",
+      "retryCount": 0,
+      "createdAt": "2026-09-02T07:38:44.614Z",
+      "completedAt": "2026-09-02T07:40:36.354Z",
+      "result": {
+        "ocr": {
+          "status": "completed",
+          "text": "",
+          "imageWidth": 1,
+          "imageHeight": 1,
+          "engine": "local-image-features"
+        }
+      }
+    }
+  ],
   "savedViews": [],
   "backups": [],
   "departments": [
@@ -2420,10 +4094,30 @@
       "claim_submitted": "Your claim for {itemName} is awaiting review.",
       "match_found": "We found a likely match for {itemName}.",
       "issue_status": "Issue {issueId} is now {status}."
-    }
+    },
+    "verifiedRecipients": [
+      "+918788083267"
+    ]
   },
   "escalations": [],
-  "moderationReports": [],
+  "moderationReports": [
+    {
+      "id": "MOD-MTJT8X70-D82D",
+      "issueId": "ISS-MTJSBKSM-5853",
+      "status": "flagged",
+      "reason": "reviewed",
+      "by": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T08:04:40.332Z"
+    },
+    {
+      "id": "MOD-MTJT8Z4R-E7AD",
+      "issueId": "ISS-MTJSBKSM-5853",
+      "status": "normal",
+      "reason": "reviewed",
+      "by": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T08:04:42.843Z"
+    }
+  ],
   "feedback": [],
   "roles": [
     {
@@ -2612,6 +4306,115 @@
   ],
   "communications": [
     {
+      "id": "MSG-MTJXLZWS-4953",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "recipientId": "USR-MTJUAWLJ-F139",
+      "templateKeys": [
+        "issue_fixed"
+      ],
+      "customMessage": "7878yugbu",
+      "channels": [
+        "in_app",
+        "email"
+      ],
+      "deliveries": [
+        {
+          "channel": "in_app",
+          "status": "sent"
+        },
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<a0151e33-55c0-824a-e0a5-4be4e0cd5010@gmail.com>"
+        }
+      ],
+      "subject": "DeltaCare update: test",
+      "body": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.\n\n7878yugbu",
+      "sentBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:06:48.844Z"
+    },
+    {
+      "id": "MSG-MTJXLP3E-4D19",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "recipientId": "USR-MTJUAWLJ-F139",
+      "templateKeys": [
+        "issue_fixed"
+      ],
+      "customMessage": "the issue was at floor 3",
+      "channels": [
+        "in_app",
+        "email"
+      ],
+      "deliveries": [
+        {
+          "channel": "in_app",
+          "status": "sent"
+        },
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<e785f8e5-da64-480e-758a-403fbe06bfea@gmail.com>"
+        }
+      ],
+      "subject": "DeltaCare update: test",
+      "body": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.\n\nthe issue was at floor 3",
+      "sentBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T10:06:34.826Z"
+    },
+    {
+      "id": "MSG-MTJX9LKD-35FB",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "recipientId": "USR-MTJUAWLJ-F139",
+      "templateKeys": [
+        "issue_fixed",
+        "issue_closed"
+      ],
+      "customMessage": "This is a custom note from the campus team. Please reach out in the chat.",
+      "channels": [
+        "email"
+      ],
+      "deliveries": [
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<fcc25ec9-4dc1-3863-a051-c38fe7f439ef@gmail.com>"
+        }
+      ],
+      "subject": "DeltaCare update: test",
+      "body": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.\n\nHello vidya, your issue “test” has been closed.\n\nThis is a custom note from the campus team. Please reach out in the chat.",
+      "sentBy": "ADM-MTITFXQL-1AFD",
+      "createdAt": "2026-09-02T09:57:10.381Z"
+    },
+    {
+      "id": "MSG-MTJX0LH7-6CC1",
+      "entityType": "issue",
+      "entityId": "ISS-MTJWZDD9-411D",
+      "recipientId": "USR-MTJUAWLJ-F139",
+      "templateKey": "issue_fixed",
+      "channels": [
+        "email",
+        "in_app"
+      ],
+      "deliveries": [
+        {
+          "channel": "email",
+          "status": "sent",
+          "providerId": "<175ccbc7-f5fa-7683-a831-ca41bed0e8ad@gmail.com>"
+        },
+        {
+          "channel": "in_app",
+          "status": "sent"
+        }
+      ],
+      "subject": "DeltaCare update: test",
+      "body": "Hello vidya, we have fixed “test”. Your report ISS-MTJWZDD9-411D is now resolved.",
+      "sentBy": "USR-MTITEZRV-C392",
+      "createdAt": "2026-09-02T09:50:10.363Z"
+    },
+    {
       "id": "MSG-MTJNLH1B-F636",
       "entityType": "lostFound",
       "entityId": "LST-MTJNEKPV-281C",
@@ -2776,6 +4579,43 @@
       "authorName": "DeltaCare Staff",
       "message": "We matched your bottle with found item(s): Wireless earbuds case. Reply here to arrange return.",
       "createdAt": "2026-09-02T06:51:55.938Z"
+    },
+    {
+      "id": "MSG-MTJTI8C7-1DCA",
+      "threadType": "lostFound",
+      "threadId": "DEMO-LST-002",
+      "authorId": "SYSTEM",
+      "authorName": "DeltaCare Staff",
+      "message": "We matched your Black wireless earbuds with found item(s): Student identity card. Reply here to arrange return.",
+      "createdAt": "2026-09-02T08:11:54.679Z"
+    },
+    {
+      "id": "MSG-MTJWBCQ1-35EB",
+      "threadType": "lostFound",
+      "threadId": "LST-MTJWAC5O-3095",
+      "authorId": "USR-MTJVZFO3-F516",
+      "authorName": "shree",
+      "message": "pls reply asap",
+      "createdAt": "2026-09-02T09:30:32.617Z"
+    },
+    {
+      "id": "MSG-MTJWDPDT-D84F",
+      "threadType": "lostFound",
+      "threadId": "LST-MTJWAC5O-3095",
+      "authorId": "USR-MTITEZRV-C392",
+      "authorName": "shivang",
+      "message": "Yes tell me",
+      "createdAt": "2026-09-02T09:32:22.337Z"
+    },
+    {
+      "id": "MSG-MTJWKB9P-C318",
+      "threadType": "lostFound",
+      "threadId": "LST-MTJWJRJW-4F6E",
+      "authorId": "USR-MTJVZFO3-F516",
+      "authorName": "shree",
+      "message": "hayee ye kya hogaya",
+      "createdAt": "2026-09-02T09:37:30.637Z"
     }
-  ]
+  ],
+  "twilioMessages": []
 }
