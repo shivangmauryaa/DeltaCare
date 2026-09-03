@@ -204,3 +204,58 @@ button.admin-user{width:100%;border:0;background:transparent;color:inherit;text-
 .operations-page{display:grid;gap:20px}.ops-config{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px}.ops-config article{display:grid;gap:5px;background:#fff;border:1px solid #dfebe5;border-radius:14px;padding:15px}.ops-config article>span{color:#c86f59}.ops-config small{text-transform:uppercase;letter-spacing:.06em;color:#71827b}.operations-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}.ops-row{display:flex;align-items:center;gap:10px;border-top:1px solid #e5ede8;padding:12px 0}.ops-row>div{display:grid;flex:1;min-width:0}.ops-row small{color:#6a7c75}.ops-row input{max-width:190px}.ops-row button svg{width:15px}.ops-article-form{display:grid;gap:9px}.ops-article-form textarea{min-height:110px}.safety-banner{margin-top:14px;background:#edf7f1;color:#275b4c;border-radius:10px;padding:12px;font-weight:700}
 @media(max-width:900px){.advanced-search-layout,.operations-grid{grid-template-columns:1fr}.knowledge-grid{grid-template-columns:1fr}.mfa-setup{grid-template-columns:1fr}.mfa-setup img{justify-self:center}.evidence-panel form{grid-template-columns:1fr}.pickup-panel form{grid-template-columns:1fr}.pickup-panel label,.pickup-panel form button{grid-column:1}.pickup-ticket{flex-direction:column;text-align:center}.ops-row{align-items:flex-start;flex-wrap:wrap}.ops-row input{max-width:none;flex-basis:100%}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* September 2026 visual refinement layer */
+:root{--surface:#fff;--surface-soft:#f7faf8;--line-strong:#cddbd4;--shadow-soft:0 10px 30px rgba(18,55,45,.07);--shadow-card:0 16px 42px rgba(18,55,45,.09)}
+body{background:#f4f7f5}
+button,a,input,select,textarea{transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease}
+input:hover,select:hover,textarea:hover{border-color:#b8cbc2}
+.app-header{position:sticky;top:0;z-index:8;box-shadow:0 1px 0 rgba(23,63,53,.025)}
+.dashboard{max-width:1320px}
+.dash-welcome{margin-bottom:34px}.dash-welcome h1,.form-heading h1{line-height:1.15}.dash-welcome p,.form-heading p{line-height:1.6}
+.dash-actions>a,.stat-grid>div,.recent-panel,.form-card,.detail-card,.detail-side>article,.admin-table,.overview-panel,.record-card{box-shadow:var(--shadow-soft)}
+.dash-actions>a{min-height:92px;padding:23px 25px}.dash-actions b{font-size:15px}.dash-actions small{font-size:12px;line-height:1.45}
+.stat-grid>div{padding:22px}.stat-grid small{font-size:10px}.stat-grid p{font-size:11px}.stat-grid strong{font-size:30px}
+.recent-row{min-height:64px}.recent-row b{font-size:14px}.recent-row small{font-size:11px}
+.auth-card{width:min(490px,100%)}.auth-card h2{font-size:36px}.auth-card>p{font-size:15px;line-height:1.55;margin-bottom:31px}.auth-card form{gap:20px}.auth-card input,.auth-card select{min-height:48px;padding:14px 15px}.auth-submit{min-height:50px}.auth-icon{width:54px;height:54px;border-radius:16px}
+.form-card{border-color:#dce6e1}.report-form input,.report-form select{min-height:46px}.report-form textarea{min-height:118px}.report-form label{font-size:13px;color:#354941}
+.my-items,.community-lost{box-shadow:var(--shadow-soft)}
+
+/* Keep full navigation visible on roomy desktop screens. */
+@media(min-width:1200px){
+  .app-shell{grid-template-columns:238px minmax(0,1fr)}
+  .app-shell>aside,.app-shell>aside:hover,.app-shell>aside:focus-within{width:238px;padding:29px 18px;overflow:hidden;box-shadow:none}
+  .app-shell .aside-top{padding:0 8px 30px}
+  .app-shell .brand>span:last-child,.app-shell .nav-text,.app-shell .aside-help{opacity:1;visibility:visible}
+  .app-shell aside nav a{min-height:44px;padding:12px 13px}
+  .app-shell .aside-help{min-width:0}
+  .admin-shell{grid-template-columns:232px minmax(0,1fr)}
+  .admin-shell>aside,.admin-shell>aside:hover,.admin-shell>aside:focus-within{width:232px;padding:24px 15px 18px;overflow:hidden;box-shadow:none}
+  .admin-shell>aside>.brand>span:last-child,.admin-shell .admin-label,.admin-shell .nav-text,.admin-shell .nav-count,.admin-shell .admin-user>div{opacity:1;visibility:visible}
+  .admin-shell .admin-label{margin:23px 11px 9px}
+  .admin-shell aside nav{gap:3px;padding-right:2px}
+  .admin-shell aside nav button{min-height:37px;padding:8px 10px}
+  .admin-shell .admin-user{padding-top:12px}
+}
+
+/* Clearer hierarchy and less crowding in the operations workspace. */
+.admin-shell>main{max-width:1540px;width:100%;margin:0 auto}
+.admin-shell main>header{padding-bottom:22px;border-bottom:1px solid #dde7e2}.admin-shell main>header h1{font-size:36px}.admin-shell main>header p{font-size:14px;line-height:1.5}
+.admin-stats{gap:16px;margin:26px 0}.admin-stats article{min-height:82px;padding:19px;box-shadow:var(--shadow-soft)}.admin-stats small{font-size:9px}.admin-stats strong{font-size:28px}
+.admin-table-title{padding:22px 24px}.admin-table-title h2{font-size:18px}.admin-table-title p{font-size:12px;line-height:1.45}.admin-table td{font-size:12px}.admin-table th{font-size:10px;padding-top:13px;padding-bottom:13px}.record-title b{font-size:13px}.record-title small{font-size:9px}
+.section-heading{margin-top:4px;margin-bottom:16px}.section-heading h2{font-size:20px}
+.detail-card,.detail-side>article{border-color:#dbe6e0;border-radius:17px;padding:23px}.detail-card h2,.detail-side h3{font-size:16px}.detail-card h2{display:flex;align-items:center;gap:8px}.detail-card h2 svg{width:18px;height:18px;color:var(--coral)}
+.records-grid{gap:18px}.record-card{padding:21px}.record-card h3{font-size:16px}
+.admin-shell main:has(> .operations-page) > .admin-stats{display:none}
+.admin-shell main:has(> .operations-page) > header{margin-bottom:26px}
+.operations-page{gap:24px}.ops-config{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.ops-config article{min-height:104px;padding:18px;border-radius:16px;box-shadow:var(--shadow-soft)}.ops-config article>span{display:grid;place-items:center;width:35px;height:35px;border-radius:10px;background:var(--coral-light)}.ops-config article>span svg{width:18px}.ops-config small{text-transform:none;letter-spacing:.02em;font-size:10px;color:#647870}.ops-config b{font:700 14px 'Manrope';overflow-wrap:anywhere}
+.operations-grid{gap:20px}.operations-grid>.detail-card{box-shadow:var(--shadow-soft)}.ops-row{min-height:58px;padding:13px 0}.ops-row b{font-size:12px;line-height:1.35}.ops-row small{font-size:10px;line-height:1.5}.ops-row button{white-space:nowrap}.ops-article-form input,.ops-article-form textarea{min-height:44px}.ops-article-form textarea{min-height:124px;resize:vertical}.operations-grid>.detail-card:nth-child(2){max-height:470px;overflow:auto;scrollbar-width:thin}
+
+/* Give the schematic campus map enough visual structure to read as a map. */
+.campus-map.rich{overflow:hidden;border:1px solid #d5e3dc;background-color:#eaf2ed;background-image:linear-gradient(28deg,transparent 45%,rgba(255,255,255,.95) 46%,rgba(255,255,255,.95) 51%,transparent 52%),linear-gradient(112deg,transparent 36%,rgba(255,255,255,.8) 37%,rgba(255,255,255,.8) 42%,transparent 43%),repeating-linear-gradient(0deg,transparent 0 42px,rgba(111,151,134,.11) 43px 44px)}
+.campus-map.rich:before,.campus-map.rich:after{content:'';position:absolute;border:1px solid rgba(64,116,94,.17);background:rgba(255,255,255,.22)}.campus-map.rich:before{width:110px;height:72px;left:-18px;bottom:18px;border-radius:45%}.campus-map.rich:after{width:86px;height:86px;right:-20px;top:-22px;border-radius:50%}.campus-map.rich span{z-index:1;padding:6px 8px;border:1px solid #dce7e2;border-radius:8px;box-shadow:0 5px 14px rgba(23,63,53,.08);font-size:9px;font-weight:700}.campus-map.rich i{z-index:2}
+.search-filter-grid input,.search-filter-grid select,.advanced-search-layout>aside input{min-height:44px}.search-filter-grid button{min-height:45px}.campus-map-card>.secondary-button{margin-bottom:2px}
+
+@media(max-width:1199px) and (min-width:901px){.admin-shell>main{padding-left:38px;padding-right:38px}}
+@media(max-width:900px){.app-header{position:relative}.admin-shell>main{max-width:none}.ops-config{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.admin-shell main>header h1{font-size:29px}.ops-config{grid-template-columns:1fr 1fr}.ops-config article{min-height:96px;padding:14px}.auth-card h2{font-size:31px}}

@@ -11,11 +11,12 @@ const api = async (url, options = {}) => {
   return data;
 };
 const readImageFiles = async (files, max = 3) => { const valid = [...(files || [])].slice(0, max).filter((f) => ['image/jpeg', 'image/png', 'image/webp'].includes(f.type) && Number(f.size) <= 2 * 1024 * 1024); const rejected = [...(files || [])].length - valid.length; const attachments = await Promise.all(valid.map((file) => new Promise((resolve) => { const r = new FileReader(); r.onload = () => resolve({ name: file.name, type: file.type, size: file.size, data: r.result }); r.readAsDataURL(file); }))); return { attachments, rejected }; };
+const displayUser = (user) => user ? { ...user, role: String(user.role || 'user').replaceAll('_', ' ') } : user;
 
 function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
-  useEffect(() => { api('/api/auth/me').then((d) => setUser(d.user)).catch(() => {}).finally(() => setLoading(false)); }, []);
+  useEffect(() => { api('/api/auth/me').then((d) => setUser(displayUser(d.user))).catch(() => {}).finally(() => setLoading(false)); }, []);
   return <AuthContext.Provider value={{ user, setUser, loading }}>{children}</AuthContext.Provider>;
 }
 const useAuth = () => useContext(AuthContext);
@@ -36,13 +37,13 @@ function AuthScreen() {
   const submit = async (event) => {
     event.preventDefault(); setBusy(true); setError('');
     try {
-      if (mode === 'login') { let d = await api('/api/auth/login', { method: 'POST', body: JSON.stringify({ email: form.email, password: form.password }) }); if (d.mfaRequired) { const code = window.prompt('Enter the six-digit code from your authenticator app:'); if (!code) throw new Error('Authenticator code is required.'); d = await api('/api/auth/mfa/verify', { method: 'POST', body: JSON.stringify({ challengeId: d.challengeId, code }) }); } setUser(d.user); }
+      if (mode === 'login') { let d = await api('/api/auth/login', { method: 'POST', body: JSON.stringify({ email: form.email, password: form.password }) }); if (d.mfaRequired) { const code = window.prompt('Enter the six-digit code from your authenticator app:'); if (!code) throw new Error('Authenticator code is required.'); d = await api('/api/auth/mfa/verify', { method: 'POST', body: JSON.stringify({ challengeId: d.challengeId, code }) }); } setUser(displayUser(d.user)); }
       else {
         if (!/^[6-9]\d{9}$/.test(form.phone)) throw new Error('Enter a valid 10-digit Indian mobile number.');
         if (form.password !== form.confirm) throw new Error('Passwords do not match.');
         await api('/api/auth/register', { method: 'POST', body: JSON.stringify({ ...form, phone: `+91${form.phone}` }) });
         const d = await api('/api/auth/login', { method: 'POST', body: JSON.stringify({ email: form.email, password: form.password }) });
-        setUser(d.user);
+        setUser(displayUser(d.user));
       }
     } catch (err) { setError(err.message); } finally { setBusy(false); }
   };
@@ -126,7 +127,7 @@ function MoreTab({ signOut }) {
   const { user, setUser } = useAuth();
   const [profile, setProfile] = useState({ name: user.name, campusId: user.campusId || '', phone: user.phone || '' });
   const [prefs, setPrefs] = useState(user.preferences || { email: true, sms: false, whatsapp: false, language: 'en', locationConsent: false });
-  const save = async () => { const d = await api('/api/profile', { method: 'PATCH', body: JSON.stringify({ name: profile.name, campusId: profile.campusId, phone: profile.phone, preferences: prefs }) }); setUser(d.user); window.alert('Saved.'); };
+  const save = async () => { const d = await api('/api/profile', { method: 'PATCH', body: JSON.stringify({ name: profile.name, campusId: profile.campusId, phone: profile.phone, preferences: prefs }) }); setUser(displayUser(d.user)); window.alert('Saved.'); };
   const exportData = async () => { const d = await api('/api/privacy/export'); const blob = new Blob([JSON.stringify(d, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'my-deltacare-data.json'; a.click(); URL.revokeObjectURL(url); };
   const toggle = (k) => setPrefs({ ...prefs, [k]: !prefs[k] });
   const pf = (k) => (e) => setProfile({ ...profile, [k]: e.target.value });

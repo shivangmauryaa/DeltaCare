@@ -16,6 +16,8 @@
     "test": "node --test server/*.test.js"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
     "@vonage/jwt": "^1.17.0",
     "@vonage/messages": "^1.27.0",
     "@vonage/server-sdk": "^3.30.0",
@@ -30,6 +32,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2",
+    "three": "^0.185.1",
     "twilio": "^6.1.0",
     "web-push": "^3.6.7"
   },
